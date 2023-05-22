@@ -1,0 +1,62 @@
+{
+  "sd_21_drawbench_41": {
+    "text_id": "drawbench_41",
+    "image_path": "sd_21/drawbench/drawbench_41.png",
+    "text": "Two dogs on the street.",
+    "code": "objectEval(image, 'dog');vqa(image, 'what animals are on the street?', 'dogs,cats,birds,fish', 'dogs');objectEval(image, 'street');vqa(image, 'where are the dogs?', 'street,park,beach,forest', 'street');countEval(objDet(image, 'dog'), '==2');vqa(image, 'how many dogs are on the street?', '1,2,3,4', '2')"
+  },
+  "sd_21_drawbench_57": {
+    "text_id": "drawbench_57",
+    "image_path": "sd_21/drawbench/drawbench_57.png",
+    "text": "A cube made of denim. A cube with the texture of denim.",
+    "code": "objectEval(image, 'cube');vqa(image, 'what shape is this?', 'cube,sphere,cylinder,pyramid', 'cube');vqa(image, 'is the cube made of denim?', 'yes,no', 'yes');vqa(image, 'what is the material of the cube?', 'denim,leather,cotton,wool', 'denim');vqa(image, 'does the cube have the texture of denim?', 'yes,no', 'yes');vqa(image, 'what is the texture of the cube?', 'denim,leather,cotton,wool', 'denim')"
+  },
+  "sd_21_drawbench_68": {
+    "text_id": "drawbench_68",
+    "image_path": "sd_21/drawbench/drawbench_68.png",
+    "text": "A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom.",
+    "code": "objectEval(image, 'book');vqa(image, 'are there books in the picture?', 'yes,no', 'yes');vqa(image, 'what objects are in the picture?', 'books,papers,pens,markers', 'books');vqa(image, 'what color is the top book?', 'green,red,blue,yellow', 'green');vqa(image, 'what color is the middle book?', 'green,red,blue,yellow', 'red');vqa(image, 'what color is the bottom book?', 'green,red,blue,yellow', 'blue');countEval(objDet(image, 'book'), '==3');vqa(image, 'how many books are in the stack?', '1,2,3,4', '3');vqa(image, 'are the books stacked?', 'yes,no', 'yes');spatialEval(image, 'green book,red book,on top');vqa(image, 'what book is on top?', 'green book,red book,blue book', 'green book');spatialEval(image, 'red book,blue book,in the middle');vqa(image, 'what book is in the middle?', 'green book,red book,blue book', 'red book');spatialEval(image, 'blue book,on the bottom');vqa(image, 'what book is on the bottom?', 'green book,red book,blue book', 'blue book')"
+  },
+  "sd_21_drawbench_74": {
+    "text_id": "drawbench_74",
+    "image_path": "sd_21/drawbench/drawbench_74.png",
+    "text": "A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals and steered with handlebars attached to the front wheel.",
+    "code": "objectEval(image, 'vehicle');vqa(image, 'what type of vehicle is this?', 'bicycle,motorcycle,car,truck', 'bicycle');objectEval(image, 'wheel');vqa(image, 'how many wheels does the vehicle have?', '1,2,3,4', '2');objectEval(image, 'frame');objectEval(image, 'pedals');vqa(image, 'how is the vehicle propelled?', 'pedals,gasoline,electricity,wind', 'pedals');objectEval(image, 'handlebars');vqa(image, 'how is the vehicle steered?', 'handlebars,steering wheel,joystick,remote control', 'handlebars');vqa(image, 'is the vehicle propelled by pedals?', 'yes,no', 'yes');vqa(image, 'is the vehicle steered with handlebars?', 'yes,no', 'yes');countEval(objDet(image, 'wheel'), '==2')"
+  },
+  "sd_21_drawbench_107": {
+    "text_id": "drawbench_107",
+    "image_path": "sd_21/drawbench/drawbench_107.png",
+    "text": "An umbrella on top of a spoon.",
+    "code": "objectEval(image, 'umbrella');vqa(image, 'what object is on top of the spoon?', 'umbrella,hat,book,phone', 'umbrella');objectEval(image, 'spoon');vqa(image, 'what object is the umbrella on top of?', 'spoon,fork,knife,chopsticks', 'spoon');spatialEval(image, 'umbrella,spoon,above');vqa(image, 'is the umbrella on top of the spoon?', 'yes,no', 'yes')"
+  },
+  "sd_21_drawbench_123": {
+    "text_id": "drawbench_123",
+    "image_path": "sd_21/drawbench/drawbench_123.png",
+    "text": "A zebra to the right of a fire hydrant.",
+    "code": "objectEval(image, 'zebra');vqa(image, 'what animal is to the right of the fire hydrant?', 'zebra,horse,donkey,giraffe', 'zebra');objectEval(image, 'fire hydrant');vqa(image, 'what object is to the left of the zebra?', 'fire hydrant,mailbox,bench,tree', 'fire hydrant');spatialEval(image, 'zebra,fire hydrant,right');vqa(image, 'is the zebra to the right of the fire hydrant?', 'yes,no', 'yes')"
+  },
+  "sd_21_drawbench_138": {
+    "text_id": "drawbench_138",
+    "image_path": "sd_21/drawbench/drawbench_138.png",
+    "text": "Greek statue of a man tripping over a cat.",
+    "code": "objectEval(image, 'Greek statue');vqa(image, 'what type of object is this?', 'Greek statue,painting,sculpture,photograph', 'Greek statue');objectEval(image, 'man');vqa(image, 'what is the man doing?', 'tripping over,running,jumping,walking', 'tripping over');objectEval(image, 'cat');vqa(image, 'what animal is the man tripping over?', 'cat,dog,bird,fish', 'cat');vqa(image, 'is the man tripping over a cat?', 'yes,no', 'yes');vqa(image, 'is the man tripping over a cat or a dog?', 'cat,dog,bird,fish', 'cat')"
+  },
+  "sd_21_drawbench_149": {
+    "text_id": "drawbench_149",
+    "image_path": "sd_21/drawbench/drawbench_149.png",
+    "text": "Photo of a mega Lego space station inside a kid's bedroom.",
+    "code": "objectEval(image, 'Lego space station');vqa(image, 'what is in the photo?', 'Lego space station,Lego car,Lego airplane,Lego boat', 'Lego space station');objectEval(image, 'bedroom');vqa(image, 'where is the Lego space station?', 'bedroom,living room,kitchen,bathroom', 'bedroom');vqa(image, 'is the Lego space station mega?', 'yes,no', 'yes');vqa(image, 'what size is the Lego space station?', 'mega,small,medium,large', 'mega');vqa(image, 'is this a photo?', 'yes,no', 'yes');spatialEval(image, 'Lego space station,bedroom,inside');vqa(image, 'is the Lego space station inside the bedroom?', 'yes,no', 'yes')"
+  },
+  "sd_21_drawbench_155": {
+    "text_id": "drawbench_155",
+    "image_path": "sd_21/drawbench/drawbench_155.png",
+    "text": "A car playing soccer, digital art.",
+    "code": "objectEval(image, 'car');vqa(image, 'what is in the picture?', 'car,truck,motorcycle,bicycle', 'car');objectEval(image, 'soccer ball');vqa(image, 'what is the car playing with?', 'soccer ball,football,basketball,baseball', 'soccer ball');vqa(image, 'is the car playing soccer?', 'yes,no', 'yes');vqa(image, 'is this digital art?', 'yes,no', 'yes');vqa(image, 'is this digital art, a painting, or a photograph?', 'digital art,painting,photograph,sculpture', 'digital art')"
+  },
+  "sd_21_drawbench_159": {
+    "text_id": "drawbench_159",
+    "image_path": "sd_21/drawbench/drawbench_159.png",
+    "text": "A realistic photo of a Pomeranian dressed up like a 1980s professional wrestler with neon green and neon orange face paint and bright green wrestling tights with bright orange boots.",
+    "code": "objectEval(image, 'Pomeranian');vqa(image, 'what type of dog is in the photo?', 'Pomeranian,Chihuahua,Bulldog,Poodle', 'Pomeranian');vqa(image, 'is the Pomeranian dressed up like a professional wrestler?', 'yes,no', 'yes');objectEval(image, 'face paint');vqa(image, 'what is on the Pomeranian\\'s face?', 'face paint,makeup,mask,bandana', 'face paint');objectEval(image, 'wrestling tights');vqa(image, 'what is the Pomeranian wearing on its legs?', 'wrestling tights,leggings,jeans,shorts', 'wrestling tights');objectEval(image, 'boots');vqa(image, 'what is the Pomeranian wearing on its feet?', 'boots,sneakers,sandals,flip flops', 'boots');vqa(image, 'is there neon green in the photo?', 'yes,no', 'yes');vqa(image, 'what color is the face paint?', 'neon green,neon orange,bright green,bright orange', 'neon green');vqa(image, 'is there neon orange in the photo?', 'yes,no', 'yes');vqa(image, 'what color is the face paint?', 'neon green,neon orange,bright green,bright orange', 'neon orange');vqa(image, 'what color are the wrestling tights?', 'bright green,bright orange,neon green,neon orange', 'bright green');vqa(image, 'what color are the boots?', 'bright orange,bright green,neon orange,neon green', 'bright orange');vqa(image, 'is this a realistic photo?', 'yes,no', 'yes');vqa(image, 'is this photo from the 1980s?', 'yes,no', 'yes')"
+  }
+}

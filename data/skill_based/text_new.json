@@ -1,0 +1,2019 @@
+{
+  "data": [
+    {
+      "id": "text_val_000000",
+      "text": "a sign that reads 'imagine'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000001",
+      "text": "a sign that reads 'dream'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000002",
+      "text": "a sign that reads 'stop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000003",
+      "text": "a sign that reads 'green'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000004",
+      "text": "a sign that reads 'shop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000005",
+      "text": "a sign that reads 'parking'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000006",
+      "text": "a sign that reads 'love'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000007",
+      "text": "a sign that reads 'notice'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000008",
+      "text": "a sign that reads 'warning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000009",
+      "text": "a sign that reads 'vote'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000010",
+      "text": "a sign that reads 'star'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000011",
+      "text": "a sign that reads 'night'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000012",
+      "text": "a sign that reads 'hope'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000013",
+      "text": "a sign that reads 'party'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000014",
+      "text": "a sign that reads 'performance'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000015",
+      "text": "a sign that reads 'trespassing'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000016",
+      "text": "a sign that reads 'hello'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000017",
+      "text": "a sign that reads 'diffusion'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000018",
+      "text": "a sign that reads 'google'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000019",
+      "text": "a sign that reads 'apple'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000020",
+      "text": "a sign that reads 'states'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000021",
+      "text": "a sign that reads 'apples'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000022",
+      "text": "a sign that reads 'zero'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000023",
+      "text": "a sign that reads 'learning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000024",
+      "text": "a sign that reads 'chain'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000025",
+      "text": "a sign that reads 'thought'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000026",
+      "text": "a sign that reads 'name'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000027",
+      "text": "a sign that reads 'memory'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000028",
+      "text": "a sign that reads 'solar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000029",
+      "text": "a sign that reads 'lunar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000030",
+      "text": "a sign that reads 'laptop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000031",
+      "text": "a book cover that reads 'imagine'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000032",
+      "text": "a book cover that reads 'dream'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000033",
+      "text": "a book cover that reads 'stop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000034",
+      "text": "a book cover that reads 'green'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000035",
+      "text": "a book cover that reads 'shop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000036",
+      "text": "a book cover that reads 'parking'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000037",
+      "text": "a book cover that reads 'love'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000038",
+      "text": "a book cover that reads 'notice'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000039",
+      "text": "a book cover that reads 'warning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000040",
+      "text": "a book cover that reads 'vote'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000041",
+      "text": "a book cover that reads 'star'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000042",
+      "text": "a book cover that reads 'night'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000043",
+      "text": "a book cover that reads 'hope'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000044",
+      "text": "a book cover that reads 'party'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000045",
+      "text": "a book cover that reads 'performance'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000046",
+      "text": "a book cover that reads 'trespassing'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000047",
+      "text": "a book cover that reads 'hello'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000048",
+      "text": "a book cover that reads 'diffusion'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000049",
+      "text": "a book cover that reads 'google'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000050",
+      "text": "a book cover that reads 'apple'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000051",
+      "text": "a book cover that reads 'states'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000052",
+      "text": "a book cover that reads 'apples'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000053",
+      "text": "a book cover that reads 'zero'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000054",
+      "text": "a book cover that reads 'learning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000055",
+      "text": "a book cover that reads 'chain'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000056",
+      "text": "a book cover that reads 'thought'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000057",
+      "text": "a book cover that reads 'name'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000058",
+      "text": "a book cover that reads 'memory'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000059",
+      "text": "a book cover that reads 'solar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000060",
+      "text": "a book cover that reads 'lunar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000061",
+      "text": "a book cover that reads 'laptop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000062",
+      "text": "a poster that reads 'imagine'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000063",
+      "text": "a poster that reads 'dream'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000064",
+      "text": "a poster that reads 'stop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000065",
+      "text": "a poster that reads 'green'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000066",
+      "text": "a poster that reads 'shop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000067",
+      "text": "a poster that reads 'parking'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000068",
+      "text": "a poster that reads 'love'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000069",
+      "text": "a poster that reads 'notice'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000070",
+      "text": "a poster that reads 'warning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000071",
+      "text": "a poster that reads 'vote'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000072",
+      "text": "a poster that reads 'star'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000073",
+      "text": "a poster that reads 'night'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000074",
+      "text": "a poster that reads 'hope'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000075",
+      "text": "a poster that reads 'party'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000076",
+      "text": "a poster that reads 'performance'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000077",
+      "text": "a poster that reads 'trespassing'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000078",
+      "text": "a poster that reads 'hello'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000079",
+      "text": "a poster that reads 'diffusion'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000080",
+      "text": "a poster that reads 'google'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000081",
+      "text": "a poster that reads 'apple'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000082",
+      "text": "a poster that reads 'states'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000083",
+      "text": "a poster that reads 'apples'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000084",
+      "text": "a poster that reads 'zero'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000085",
+      "text": "a poster that reads 'learning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000086",
+      "text": "a poster that reads 'chain'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000087",
+      "text": "a poster that reads 'thought'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000088",
+      "text": "a poster that reads 'name'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000089",
+      "text": "a poster that reads 'memory'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000090",
+      "text": "a poster that reads 'solar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000091",
+      "text": "a poster that reads 'lunar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000092",
+      "text": "a poster that reads 'laptop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000093",
+      "text": "a sign that says 'imagine'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000094",
+      "text": "a sign that says 'dream'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000095",
+      "text": "a sign that says 'stop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000096",
+      "text": "a sign that says 'green'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000097",
+      "text": "a sign that says 'shop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000098",
+      "text": "a sign that says 'parking'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000099",
+      "text": "a sign that says 'love'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000100",
+      "text": "a sign that says 'notice'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000101",
+      "text": "a sign that says 'warning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000102",
+      "text": "a sign that says 'vote'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000103",
+      "text": "a sign that says 'star'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000104",
+      "text": "a sign that says 'night'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000105",
+      "text": "a sign that says 'hope'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000106",
+      "text": "a sign that says 'party'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000107",
+      "text": "a sign that says 'performance'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000108",
+      "text": "a sign that says 'trespassing'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000109",
+      "text": "a sign that says 'hello'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000110",
+      "text": "a sign that says 'diffusion'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000111",
+      "text": "a sign that says 'google'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000112",
+      "text": "a sign that says 'apple'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000113",
+      "text": "a sign that says 'states'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000114",
+      "text": "a sign that says 'apples'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000115",
+      "text": "a sign that says 'zero'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000116",
+      "text": "a sign that says 'learning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000117",
+      "text": "a sign that says 'chain'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000118",
+      "text": "a sign that says 'thought'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000119",
+      "text": "a sign that says 'name'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000120",
+      "text": "a sign that says 'memory'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000121",
+      "text": "a sign that says 'solar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000122",
+      "text": "a sign that says 'lunar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000123",
+      "text": "a sign that says 'laptop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000124",
+      "text": "a book cover that says 'imagine'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000125",
+      "text": "a book cover that says 'dream'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000126",
+      "text": "a book cover that says 'stop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000127",
+      "text": "a book cover that says 'green'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000128",
+      "text": "a book cover that says 'shop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000129",
+      "text": "a book cover that says 'parking'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000130",
+      "text": "a book cover that says 'love'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000131",
+      "text": "a book cover that says 'notice'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000132",
+      "text": "a book cover that says 'warning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000133",
+      "text": "a book cover that says 'vote'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000134",
+      "text": "a book cover that says 'star'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000135",
+      "text": "a book cover that says 'night'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000136",
+      "text": "a book cover that says 'hope'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000137",
+      "text": "a book cover that says 'party'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000138",
+      "text": "a book cover that says 'performance'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000139",
+      "text": "a book cover that says 'trespassing'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000140",
+      "text": "a book cover that says 'hello'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000141",
+      "text": "a book cover that says 'diffusion'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000142",
+      "text": "a book cover that says 'google'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000143",
+      "text": "a book cover that says 'apple'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000144",
+      "text": "a book cover that says 'states'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000145",
+      "text": "a book cover that says 'apples'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000146",
+      "text": "a book cover that says 'zero'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000147",
+      "text": "a book cover that says 'learning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000148",
+      "text": "a book cover that says 'chain'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000149",
+      "text": "a book cover that says 'thought'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000150",
+      "text": "a book cover that says 'name'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000151",
+      "text": "a book cover that says 'memory'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000152",
+      "text": "a book cover that says 'solar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000153",
+      "text": "a book cover that says 'lunar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000154",
+      "text": "a book cover that says 'laptop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000155",
+      "text": "a poster that says 'imagine'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000156",
+      "text": "a poster that says 'dream'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000157",
+      "text": "a poster that says 'stop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000158",
+      "text": "a poster that says 'green'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000159",
+      "text": "a poster that says 'shop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000160",
+      "text": "a poster that says 'parking'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000161",
+      "text": "a poster that says 'love'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000162",
+      "text": "a poster that says 'notice'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000163",
+      "text": "a poster that says 'warning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000164",
+      "text": "a poster that says 'vote'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000165",
+      "text": "a poster that says 'star'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000166",
+      "text": "a poster that says 'night'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000167",
+      "text": "a poster that says 'hope'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000168",
+      "text": "a poster that says 'party'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000169",
+      "text": "a poster that says 'performance'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000170",
+      "text": "a poster that says 'trespassing'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000171",
+      "text": "a poster that says 'hello'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000172",
+      "text": "a poster that says 'diffusion'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000173",
+      "text": "a poster that says 'google'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000174",
+      "text": "a poster that says 'apple'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000175",
+      "text": "a poster that says 'states'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000176",
+      "text": "a poster that says 'apples'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000177",
+      "text": "a poster that says 'zero'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000178",
+      "text": "a poster that says 'learning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000179",
+      "text": "a poster that says 'chain'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000180",
+      "text": "a poster that says 'thought'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000181",
+      "text": "a poster that says 'name'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000182",
+      "text": "a poster that says 'memory'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000183",
+      "text": "a poster that says 'solar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000184",
+      "text": "a poster that says 'lunar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000185",
+      "text": "a poster that says 'laptop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000186",
+      "text": "a storefront with 'imagine' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000187",
+      "text": "a storefront with 'dream' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000188",
+      "text": "a storefront with 'stop' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000189",
+      "text": "a storefront with 'green' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000190",
+      "text": "a storefront with 'shop' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000191",
+      "text": "a storefront with 'parking' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000192",
+      "text": "a storefront with 'love' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000193",
+      "text": "a storefront with 'notice' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000194",
+      "text": "a storefront with 'warning' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000195",
+      "text": "a storefront with 'vote' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000196",
+      "text": "a storefront with 'star' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000197",
+      "text": "a storefront with 'night' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000198",
+      "text": "a storefront with 'hope' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000199",
+      "text": "a storefront with 'party' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000200",
+      "text": "a storefront with 'performance' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000201",
+      "text": "a storefront with 'trespassing' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000202",
+      "text": "a storefront with 'hello' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000203",
+      "text": "a storefront with 'diffusion' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000204",
+      "text": "a storefront with 'google' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000205",
+      "text": "a storefront with 'apple' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000206",
+      "text": "a storefront with 'states' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000207",
+      "text": "a storefront with 'apples' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000208",
+      "text": "a storefront with 'zero' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000209",
+      "text": "a storefront with 'learning' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000210",
+      "text": "a storefront with 'chain' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000211",
+      "text": "a storefront with 'thought' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000212",
+      "text": "a storefront with 'name' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000213",
+      "text": "a storefront with 'memory' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000214",
+      "text": "a storefront with 'solar' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000215",
+      "text": "a storefront with 'lunar' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000216",
+      "text": "a storefront with 'laptop' written on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000217",
+      "text": "a storefront with 'imagine' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000218",
+      "text": "a storefront with 'dream' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000219",
+      "text": "a storefront with 'stop' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000220",
+      "text": "a storefront with 'green' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000221",
+      "text": "a storefront with 'shop' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000222",
+      "text": "a storefront with 'parking' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000223",
+      "text": "a storefront with 'love' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000224",
+      "text": "a storefront with 'notice' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000225",
+      "text": "a storefront with 'warning' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000226",
+      "text": "a storefront with 'vote' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000227",
+      "text": "a storefront with 'star' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000228",
+      "text": "a storefront with 'night' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000229",
+      "text": "a storefront with 'hope' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000230",
+      "text": "a storefront with 'party' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000231",
+      "text": "a storefront with 'performance' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000232",
+      "text": "a storefront with 'trespassing' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000233",
+      "text": "a storefront with 'hello' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000234",
+      "text": "a storefront with 'diffusion' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000235",
+      "text": "a storefront with 'google' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000236",
+      "text": "a storefront with 'apple' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000237",
+      "text": "a storefront with 'states' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000238",
+      "text": "a storefront with 'apples' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000239",
+      "text": "a storefront with 'zero' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000240",
+      "text": "a storefront with 'learning' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000241",
+      "text": "a storefront with 'chain' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000242",
+      "text": "a storefront with 'thought' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000243",
+      "text": "a storefront with 'name' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000244",
+      "text": "a storefront with 'memory' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000245",
+      "text": "a storefront with 'solar' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000246",
+      "text": "a storefront with 'lunar' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000247",
+      "text": "a storefront with 'laptop' written",
+      "objects": []
+    },
+    {
+      "id": "text_val_000248",
+      "text": "a storefront with 'imagine' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000249",
+      "text": "a storefront with 'dream' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000250",
+      "text": "a storefront with 'stop' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000251",
+      "text": "a storefront with 'green' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000252",
+      "text": "a storefront with 'shop' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000253",
+      "text": "a storefront with 'parking' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000254",
+      "text": "a storefront with 'love' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000255",
+      "text": "a storefront with 'notice' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000256",
+      "text": "a storefront with 'warning' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000257",
+      "text": "a storefront with 'vote' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000258",
+      "text": "a storefront with 'star' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000259",
+      "text": "a storefront with 'night' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000260",
+      "text": "a storefront with 'hope' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000261",
+      "text": "a storefront with 'party' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000262",
+      "text": "a storefront with 'performance' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000263",
+      "text": "a storefront with 'trespassing' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000264",
+      "text": "a storefront with 'hello' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000265",
+      "text": "a storefront with 'diffusion' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000266",
+      "text": "a storefront with 'google' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000267",
+      "text": "a storefront with 'apple' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000268",
+      "text": "a storefront with 'states' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000269",
+      "text": "a storefront with 'apples' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000270",
+      "text": "a storefront with 'zero' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000271",
+      "text": "a storefront with 'learning' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000272",
+      "text": "a storefront with 'chain' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000273",
+      "text": "a storefront with 'thought' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000274",
+      "text": "a storefront with 'name' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000275",
+      "text": "a storefront with 'memory' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000276",
+      "text": "a storefront with 'solar' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000277",
+      "text": "a storefront with 'lunar' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000278",
+      "text": "a storefront with 'laptop' displayed",
+      "objects": []
+    },
+    {
+      "id": "text_val_000279",
+      "text": "a piece of paper that says 'imagine'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000280",
+      "text": "a piece of paper that says 'dream'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000281",
+      "text": "a piece of paper that says 'stop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000282",
+      "text": "a piece of paper that says 'green'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000283",
+      "text": "a piece of paper that says 'shop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000284",
+      "text": "a piece of paper that says 'parking'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000285",
+      "text": "a piece of paper that says 'love'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000286",
+      "text": "a piece of paper that says 'notice'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000287",
+      "text": "a piece of paper that says 'warning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000288",
+      "text": "a piece of paper that says 'vote'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000289",
+      "text": "a piece of paper that says 'star'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000290",
+      "text": "a piece of paper that says 'night'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000291",
+      "text": "a piece of paper that says 'hope'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000292",
+      "text": "a piece of paper that says 'party'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000293",
+      "text": "a piece of paper that says 'performance'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000294",
+      "text": "a piece of paper that says 'trespassing'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000295",
+      "text": "a piece of paper that says 'hello'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000296",
+      "text": "a piece of paper that says 'diffusion'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000297",
+      "text": "a piece of paper that says 'google'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000298",
+      "text": "a piece of paper that says 'apple'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000299",
+      "text": "a piece of paper that says 'states'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000300",
+      "text": "a piece of paper that says 'apples'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000301",
+      "text": "a piece of paper that says 'zero'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000302",
+      "text": "a piece of paper that says 'learning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000303",
+      "text": "a piece of paper that says 'chain'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000304",
+      "text": "a piece of paper that says 'thought'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000305",
+      "text": "a piece of paper that says 'name'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000306",
+      "text": "a piece of paper that says 'memory'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000307",
+      "text": "a piece of paper that says 'solar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000308",
+      "text": "a piece of paper that says 'lunar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000309",
+      "text": "a piece of paper that says 'laptop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000310",
+      "text": "a piece of paper that reads 'imagine'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000311",
+      "text": "a piece of paper that reads 'dream'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000312",
+      "text": "a piece of paper that reads 'stop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000313",
+      "text": "a piece of paper that reads 'green'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000314",
+      "text": "a piece of paper that reads 'shop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000315",
+      "text": "a piece of paper that reads 'parking'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000316",
+      "text": "a piece of paper that reads 'love'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000317",
+      "text": "a piece of paper that reads 'notice'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000318",
+      "text": "a piece of paper that reads 'warning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000319",
+      "text": "a piece of paper that reads 'vote'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000320",
+      "text": "a piece of paper that reads 'star'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000321",
+      "text": "a piece of paper that reads 'night'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000322",
+      "text": "a piece of paper that reads 'hope'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000323",
+      "text": "a piece of paper that reads 'party'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000324",
+      "text": "a piece of paper that reads 'performance'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000325",
+      "text": "a piece of paper that reads 'trespassing'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000326",
+      "text": "a piece of paper that reads 'hello'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000327",
+      "text": "a piece of paper that reads 'diffusion'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000328",
+      "text": "a piece of paper that reads 'google'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000329",
+      "text": "a piece of paper that reads 'apple'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000330",
+      "text": "a piece of paper that reads 'states'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000331",
+      "text": "a piece of paper that reads 'apples'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000332",
+      "text": "a piece of paper that reads 'zero'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000333",
+      "text": "a piece of paper that reads 'learning'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000334",
+      "text": "a piece of paper that reads 'chain'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000335",
+      "text": "a piece of paper that reads 'thought'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000336",
+      "text": "a piece of paper that reads 'name'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000337",
+      "text": "a piece of paper that reads 'memory'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000338",
+      "text": "a piece of paper that reads 'solar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000339",
+      "text": "a piece of paper that reads 'lunar'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000340",
+      "text": "a piece of paper that reads 'laptop'",
+      "objects": []
+    },
+    {
+      "id": "text_val_000341",
+      "text": "a piece of paper that says 'imagine' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000342",
+      "text": "a piece of paper that says 'dream' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000343",
+      "text": "a piece of paper that says 'stop' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000344",
+      "text": "a piece of paper that says 'green' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000345",
+      "text": "a piece of paper that says 'shop' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000346",
+      "text": "a piece of paper that says 'parking' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000347",
+      "text": "a piece of paper that says 'love' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000348",
+      "text": "a piece of paper that says 'notice' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000349",
+      "text": "a piece of paper that says 'warning' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000350",
+      "text": "a piece of paper that says 'vote' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000351",
+      "text": "a piece of paper that says 'star' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000352",
+      "text": "a piece of paper that says 'night' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000353",
+      "text": "a piece of paper that says 'hope' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000354",
+      "text": "a piece of paper that says 'party' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000355",
+      "text": "a piece of paper that says 'performance' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000356",
+      "text": "a piece of paper that says 'trespassing' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000357",
+      "text": "a piece of paper that says 'hello' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000358",
+      "text": "a piece of paper that says 'diffusion' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000359",
+      "text": "a piece of paper that says 'google' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000360",
+      "text": "a piece of paper that says 'apple' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000361",
+      "text": "a piece of paper that says 'states' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000362",
+      "text": "a piece of paper that says 'apples' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000363",
+      "text": "a piece of paper that says 'zero' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000364",
+      "text": "a piece of paper that says 'learning' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000365",
+      "text": "a piece of paper that says 'chain' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000366",
+      "text": "a piece of paper that says 'thought' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000367",
+      "text": "a piece of paper that says 'name' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000368",
+      "text": "a piece of paper that says 'memory' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000369",
+      "text": "a piece of paper that says 'solar' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000370",
+      "text": "a piece of paper that says 'lunar' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000371",
+      "text": "a piece of paper that says 'laptop' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000372",
+      "text": "a piece of paper that reads 'imagine' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000373",
+      "text": "a piece of paper that reads 'dream' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000374",
+      "text": "a piece of paper that reads 'stop' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000375",
+      "text": "a piece of paper that reads 'green' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000376",
+      "text": "a piece of paper that reads 'shop' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000377",
+      "text": "a piece of paper that reads 'parking' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000378",
+      "text": "a piece of paper that reads 'love' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000379",
+      "text": "a piece of paper that reads 'notice' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000380",
+      "text": "a piece of paper that reads 'warning' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000381",
+      "text": "a piece of paper that reads 'vote' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000382",
+      "text": "a piece of paper that reads 'star' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000383",
+      "text": "a piece of paper that reads 'night' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000384",
+      "text": "a piece of paper that reads 'hope' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000385",
+      "text": "a piece of paper that reads 'party' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000386",
+      "text": "a piece of paper that reads 'performance' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000387",
+      "text": "a piece of paper that reads 'trespassing' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000388",
+      "text": "a piece of paper that reads 'hello' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000389",
+      "text": "a piece of paper that reads 'diffusion' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000390",
+      "text": "a piece of paper that reads 'google' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000391",
+      "text": "a piece of paper that reads 'apple' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000392",
+      "text": "a piece of paper that reads 'states' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000393",
+      "text": "a piece of paper that reads 'apples' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000394",
+      "text": "a piece of paper that reads 'zero' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000395",
+      "text": "a piece of paper that reads 'learning' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000396",
+      "text": "a piece of paper that reads 'chain' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000397",
+      "text": "a piece of paper that reads 'thought' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000398",
+      "text": "a piece of paper that reads 'name' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000399",
+      "text": "a piece of paper that reads 'memory' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000400",
+      "text": "a piece of paper that reads 'solar' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000401",
+      "text": "a piece of paper that reads 'lunar' on it",
+      "objects": []
+    },
+    {
+      "id": "text_val_000402",
+      "text": "a piece of paper that reads 'laptop' on it",
+      "objects": []
+    }
+  ]
+}

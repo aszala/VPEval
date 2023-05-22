@@ -1,0 +1,1 @@
+This source code is borrowed from the official GroundingDINO [repo](https://github.com/IDEA-Research/GroundingDINO).

@@ -1,0 +1,92 @@
+{
+  "gligen_extra_ft_paintskill_13": {
+    "text_id": "paintskill_13",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_13.png",
+    "text": "a photo of suitcase and bench; bench is left to suitcase",
+    "code": "objectEval(image, 'suitcase');vqa(image, 'what is in the photo?', 'suitcase,backpack,bag,luggage', 'suitcase');objectEval(image, 'bench');vqa(image, 'what is in the photo?', 'bench,chair,table,sofa', 'bench');spatialEval(image, 'bench,suitcase,left');vqa(image, 'is the bench left to the suitcase?', 'yes,no', 'yes');vqa(image, 'is the bench left to or right to the suitcase?', 'left to,right to,above,below', 'left to');vqa(image, 'is this a photo?', 'yes,no', 'yes');vqa(image, 'is this a photo, a painting, or a drawing?', 'photo,painting,drawing,sculpture', 'photo')"
+  },
+  "gligen_extra_ft_paintskill_31": {
+    "text_id": "paintskill_31",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_31.png",
+    "text": "a photo of blue fire hydrant",
+    "code": "objectEval(image, 'fire hydrant');vqa(image, 'is this a fire hydrant?', 'yes,no', 'yes');vqa(image, 'is the fire hydrant blue?', 'yes,no', 'yes');vqa(image, 'what color is the fire hydrant?', 'blue,red,yellow,green', 'blue');vqa(image, 'is this a photo?', 'yes,no', 'yes');vqa(image, 'is this a photo, a painting, or a sculpture?', 'photo,painting,sculpture,drawing', 'photo')"
+  },
+  "gligen_extra_ft_paintskill_110": {
+    "text_id": "paintskill_110",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_110.png",
+    "text": "a photo of bed and human; human is right to bed",
+    "code": "objectEval(image, 'bed');vqa(image, 'what is in the photo?', 'bed,chair,table,sofa', 'bed');objectEval(image, 'human');vqa(image, 'who is in the photo?', 'human,animal,robot,alien', 'human');spatialEval(image, 'human,bed,right');vqa(image, 'is the human right to the bed?', 'yes,no', 'yes');vqa(image, 'is this a photo?', 'yes,no', 'yes')"
+  },
+  "gligen_extra_ft_paintskill_119": {
+    "text_id": "paintskill_119",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_119.png",
+    "text": "a photo of bike and stop sign; stop sign is below bike",
+    "code": "objectEval(image, 'bike');vqa(image, 'what is in the photo?', 'bike,car,truck,motorcycle', 'bike');objectEval(image, 'stop sign');vqa(image, 'what is in the photo?', 'stop sign,traffic light,pedestrian crossing,road sign', 'stop sign');spatialEval(image, 'stop sign,bike,below');vqa(image, 'is the stop sign below the bike?', 'yes,no', 'yes');textEval(ocr(image), 'stop')"
+  },
+  "gligen_extra_ft_paintskill_152": {
+    "text_id": "paintskill_152",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_152.png",
+    "text": "a photo of blue bear",
+    "code": "objectEval(image, 'bear');vqa(image, 'what animal is in the photo?', 'bear,lion,tiger,elephant', 'bear');vqa(image, 'is the bear blue?', 'yes,no', 'yes');vqa(image, 'what color is the bear?', 'blue,red,yellow,green', 'blue');vqa(image, 'is this a photo?', 'yes,no', 'yes');vqa(image, 'is this a photo, a painting, or a sculpture?', 'photo,painting,sculpture,drawing', 'photo')"
+  },
+  "gligen_extra_ft_paintskill_156": {
+    "text_id": "paintskill_156",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_156.png",
+    "text": "a photo of bed and stop sign; stop sign is above bed",
+    "code": "objectEval(image, 'bed');vqa(image, 'what type of furniture is this?', 'bed,chair,table,sofa', 'bed');objectEval(image, 'stop sign');vqa(image, 'is there a stop sign in the photo?', 'yes,no', 'yes');vqa(image, 'what type of sign is in the photo?', 'stop sign,yield sign,traffic light,road sign', 'stop sign');spatialEval(image, 'stop sign,bed,above');vqa(image, 'is the stop sign above the bed?', 'yes,no', 'yes')"
+  },
+  "gligen_extra_ft_paintskill_229": {
+    "text_id": "paintskill_229",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_229.png",
+    "text": "a photo of bear and bus; bus is above bear",
+    "code": "objectEval(image, 'bear');vqa(image, 'what animal is in the photo?', 'bear,lion,tiger,elephant', 'bear');objectEval(image, 'bus');vqa(image, 'what vehicle is in the photo?', 'bus,car,truck,motorcycle', 'bus');spatialEval(image, 'bus,bear,above');vqa(image, 'is the bus above the bear?', 'yes,no', 'yes');vqa(image, 'is the bus above or below the bear?', 'above,below,next to,behind', 'above');vqa(image, 'is this a photo?', 'yes,no', 'yes');vqa(image, 'is this a photo, a painting, or a sculpture?', 'photo,painting,sculpture,drawing', 'photo')"
+  },
+  "gligen_extra_ft_paintskill_235": {
+    "text_id": "paintskill_235",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_235.png",
+    "text": "a photo of dining table and traffic light; traffic light is below dining table",
+    "code": "objectEval(image, 'dining table');vqa(image, 'what type of furniture is this?', 'dining table,coffee table,desk,chair', 'dining table');objectEval(image, 'traffic light');vqa(image, 'what is below the dining table?', 'traffic light,car,bicycle,person', 'traffic light');spatialEval(image, 'traffic light,dining table,below')"
+  },
+  "gligen_extra_ft_paintskill_241": {
+    "text_id": "paintskill_241",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_241.png",
+    "text": "a photo of backpack and airplane; airplane is left to backpack",
+    "code": "objectEval(image, 'backpack');vqa(image, 'what is in the photo?', 'backpack,briefcase,purse,suitcase', 'backpack');objectEval(image, 'airplane');vqa(image, 'what is in the photo?', 'airplane,car,boat,bicycle', 'airplane');spatialEval(image, 'airplane,backpack,left');vqa(image, 'is the airplane left to the backpack?', 'yes,no', 'yes')"
+  },
+  "gligen_extra_ft_paintskill_254": {
+    "text_id": "paintskill_254",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_254.png",
+    "text": "a photo of dog and stop sign; stop sign is left to dog",
+    "code": "objectEval(image, 'dog');vqa(image, 'what animal is in the photo?', 'dog,cat,bird,fish', 'dog');objectEval(image, 'stop sign');vqa(image, 'is there a stop sign in the photo?', 'yes,no', 'yes');vqa(image, 'what type of sign is in the photo?', 'stop sign,yield sign,traffic light,road sign', 'stop sign');spatialEval(image, 'stop sign,dog,left');vqa(image, 'is the stop sign left to the dog?', 'yes,no', 'yes');textEval(ocr(image), 'stop')"
+  },
+  "gligen_extra_ft_paintskill_270": {
+    "text_id": "paintskill_270",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_270.png",
+    "text": "a photo of bird and skateboard; skateboard is right to bird",
+    "code": "objectEval(image, 'bird');vqa(image, 'what animal is in the photo?', 'bird,cat,dog,fish', 'bird');objectEval(image, 'skateboard');vqa(image, 'what object is in the photo?', 'skateboard,bicycle,motorcycle,car', 'skateboard');spatialEval(image, 'skateboard,bird,right');vqa(image, 'is the skateboard right to the bird?', 'yes,no', 'yes');vqa(image, 'is this a photo?', 'yes,no', 'yes');vqa(image, 'is this a photo, a painting, or a sculpture?', 'photo,painting,sculpture,drawing', 'photo')"
+  },
+  "gligen_extra_ft_paintskill_275": {
+    "text_id": "paintskill_275",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_275.png",
+    "text": "a photo of bike and skateboard; skateboard is left to bike",
+    "code": "objectEval(image, 'bike');vqa(image, 'is this a bike?', 'yes,no', 'yes');objectEval(image, 'skateboard');vqa(image, 'is this a skateboard?', 'yes,no', 'yes');spatialEval(image, 'skateboard,bike,left to');vqa(image, 'is the skateboard left to the bike?', 'yes,no', 'yes')"
+  },
+  "gligen_extra_ft_paintskill_286": {
+    "text_id": "paintskill_286",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_286.png",
+    "text": "a photo of bed and bench; bench is below bed",
+    "code": "objectEval(image, 'bed');vqa(image, 'what type of furniture is this?', 'bed,sofa,chair,table', 'bed');objectEval(image, 'bench');vqa(image, 'what type of furniture is this?', 'bench,chair,sofa,table', 'bench');spatialEval(image, 'bench,bed,below');vqa(image, 'is the bench below the bed?', 'yes,no', 'yes');vqa(image, 'is this a photo?', 'yes,no', 'yes');vqa(image, 'is this a photo, a painting, or a sculpture?', 'photo,painting,sculpture,drawing', 'photo')"
+  },
+  "gligen_extra_ft_paintskill_374": {
+    "text_id": "paintskill_374",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_374.png",
+    "text": "a photo of bear and dining table; dining table is below bear",
+    "code": "objectEval(image, 'bear');vqa(image, 'what animal is in the photo?', 'bear,lion,tiger,elephant', 'bear');objectEval(image, 'dining table');vqa(image, 'what is below the bear?', 'dining table,chair,sofa,bed', 'dining table');vqa(image, 'is this a photo?', 'yes,no', 'yes');vqa(image, 'is this a photo, a painting, or a sculpture?', 'photo,painting,sculpture,drawing', 'photo');spatialEval(image, 'bear,dining table,above');vqa(image, 'is the dining table below the bear?', 'yes,no', 'yes')"
+  },
+  "gligen_extra_ft_paintskill_409": {
+    "text_id": "paintskill_409",
+    "image_path": "gligen_extra_ft/paintskill/paintskill_409.png",
+    "text": "a photo of chair and dining table; dining table is left to chair",
+    "code": "objectEval(image, 'chair');vqa(image, 'is there a chair in the photo?', 'yes,no', 'yes');objectEval(image, 'dining table');vqa(image, 'is there a dining table in the photo?', 'yes,no', 'yes');vqa(image, 'what type of table is in the photo?', 'dining table,coffee table,side table,desk', 'dining table');spatialEval(image, 'dining table,chair,left');vqa(image, 'is the dining table left to the chair?', 'yes,no', 'yes')"
+  }
+}

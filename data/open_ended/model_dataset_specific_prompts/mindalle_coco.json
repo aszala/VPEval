@@ -1,0 +1,506 @@
+{
+  "mindalle_coco_62896": {
+    "text_id": "coco_62896",
+    "image_path": "mindalle/coco/coco_62896.png",
+    "text": "A traffic light and a signpost at a crossroads intersection near a waterway.",
+    "code": "objectEval(image, 'traffic light');vqa(image, 'is there a traffic light?', 'yes,no', 'yes');objectEval(image, 'signpost');vqa(image, 'is there a signpost?', 'yes,no', 'yes');vqa(image, 'is this a crossroads intersection?', 'yes,no', 'yes');vqa(image, 'is this a crossroads intersection or a T-junction?', 'crossroads intersection,T-junction,roundabout,dead end', 'crossroads intersection');objectEval(image, 'waterway');vqa(image, 'is there a waterway?', 'yes,no', 'yes');vqa(image, 'what type of waterway is this?', 'river,lake,ocean,canal', 'waterway');spatialEval(image, 'traffic light,waterway,near');vqa(image, 'is the traffic light near the waterway?', 'yes,no', 'yes');vqa(image, 'is the traffic light near the waterway or the signpost?', 'waterway,signpost,both,neither', 'waterway')"
+  },
+  "mindalle_coco_152829": {
+    "text_id": "coco_152829",
+    "image_path": "mindalle/coco/coco_152829.png",
+    "text": "A woman is showing a watermelon slice to a woman on a scooter.",
+    "code": "objectEval(image, 'woman');vqa(image, 'who is showing a watermelon slice?', 'woman,man,boy,girl', 'woman');objectEval(image, 'watermelon slice');vqa(image, 'what is the woman showing to a woman on a scooter?', 'watermelon slice,apple,orange,banana', 'watermelon slice');vqa(image, 'is there a woman on a scooter?', 'yes,no', 'yes');vqa(image, 'who is on a scooter?', 'woman,man,boy,girl', 'woman');objectEval(image, 'scooter');vqa(image, 'what vehicle is one of woman on?', 'scooter,bicycle,motorcycle,car', 'scooter');countEval(objDet(image, 'woman'), '==2');vqa(image, 'is the woman showing a watermelon slice to another woman?', 'yes,no', 'yes');spatialEval(image, 'woman,scooter,above');vqa(image, 'is one of the woman on a scooter?', 'yes,no', 'yes');vqa(iamge, 'is the woman on the scooter or standing next to it?', 'on,next to,behind,in front of', 'on')"
+  },
+  "mindalle_coco_292534": {
+    "text_id": "coco_292534",
+    "image_path": "mindalle/coco/coco_292534.png",
+    "text": "A red motorcycle parked by paint chipped doors.",
+    "code": "objectEval(image, 'motorcycle');vqa(image, 'is this a motorcycle?', 'yes,no', 'yes');objectEval(image, 'doors');vqa(image, 'are there doors in the picture?', 'yes,no', 'yes');vqa(image, 'what is in the picture besides the motorcycle?', 'doors,windows,curtains,plants', 'doors');vqa(image, 'is the motorcycle parked?', 'yes,no', 'yes');vqa(image, 'is the motorcycle red?', 'yes,no', 'yes');vqa(image, 'what color is the motorcycle?', 'red,blue,green,yellow', 'red');textEval(ocr(image), 'paint chipped')"
+  },
+  "mindalle_coco_90398": {
+    "text_id": "coco_90398",
+    "image_path": "mindalle/coco/coco_90398.png",
+    "text": "The caramel-colored kitten is  lying on the small blanket on top of the unmade bed.",
+    "code": "objectEval(image, 'kitten');vqa(image, 'what animal is in the photo?', 'kitten,puppy,rabbit,hamster', 'kitten');objectEval(image, 'blanket');vqa(image, 'what is the kitten lying on?', 'blanket,pillow,sheet,towel', 'blanket');objectEval(image, 'bed');vqa(image, 'what type of furniture is this?', 'bed,sofa,chair,table', 'bed');vqa(image, 'what color is the kitten?', 'caramel-colored,black,white,gray', 'caramel-colored');vqa(image, 'is the kitten lying on the blanket?', 'yes,no', 'yes');vqa(image, 'is the bed made?', 'yes,no', 'no');vqa(image, 'is the bed made or unmade?', 'unmade,made', 'unmade');vqa(image, 'is the blanket small?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_397109": {
+    "text_id": "coco_397109",
+    "image_path": "mindalle/coco/coco_397109.png",
+    "text": "A commercial airplane with propellers flying through the air.",
+    "code": "objectEval(image, 'airplane');vqa(image, 'what type of vehicle is this?', 'airplane,car,boat,motorcycle', 'airplane');objectEval(image, 'propellers');vqa(image, 'what is on the airplane?', 'propellers,wheels,engines,wings', 'propellers');vqa(image, 'is the airplane flying?', 'yes,no', 'yes');vqa(image, 'what is the airplane doing?', 'flying,landing,taking off,hovering', 'flying');vqa(image, 'is this a commercial airplane?', 'yes,no', 'yes');vqa(image, 'is this a commercial or a private airplane?', 'commercial,private,unknown', 'commercial')"
+  },
+  "mindalle_coco_138003": {
+    "text_id": "coco_138003",
+    "image_path": "mindalle/coco/coco_138003.png",
+    "text": "A midsized horse in a field with her rider standing",
+    "code": "objectEval(image, 'horse');vqa(image, 'what animal is in the field?', 'horse,cow,sheep,goat', 'horse');objectEval(image, 'rider');vqa(image, 'is there a rider?', 'yes,no', 'yes');vqa(image, 'who is in the field?', 'rider,horse,both,neither', 'rider');objectEval(image, 'field');vqa(image, 'where is the horse and rider?', 'field,forest,beach,mountain', 'field');vqa(image, 'is the rider standing?', 'yes,no', 'yes');countEval(objDet(image, 'horse'), '==1');vqa(image, 'is the horse midsized?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_323167": {
+    "text_id": "coco_323167",
+    "image_path": "mindalle/coco/coco_323167.png",
+    "text": "A laptop with external keyboard, mouse, phone and photo on a desk.",
+    "code": "objectEval(image, 'laptop');vqa(image, 'what is on the desk?', 'laptop,book,pen,paper', 'laptop');objectEval(image, 'external keyboard');vqa(image, 'what is next to the laptop?', 'external keyboard,internal keyboard,monitor,printer', 'external keyboard');objectEval(image, 'mouse');vqa(image, 'what is next to the external keyboard?', 'mouse,pen,phone,book', 'mouse');objectEval(image, 'phone');vqa(image, 'what is next to the mouse?', 'phone,pen,book,monitor', 'phone');objectEval(image, 'photo');vqa(image, 'what is next to the phone?', 'photo,book,pen,monitor', 'photo');objectEval(image, 'desk');vqa(image, 'what type of furniture is this?', 'desk,chair,table,bookshelf', 'desk')"
+  },
+  "mindalle_coco_483317": {
+    "text_id": "coco_483317",
+    "image_path": "mindalle/coco/coco_483317.png",
+    "text": "A large motorcycle that is sitting outside of a building.",
+    "code": "objectEval(image, 'motorcycle');vqa(image, 'what is outside of the building?', 'motorcycle,car,bicycle,truck', 'motorcycle');objectEval(image, 'building');vqa(image, 'what type of structure is this?', 'building,bridge,tower,house', 'building');vqa(image, 'is the motorcycle sitting outside of the building?', 'yes,no', 'yes');vqa(image, 'is the motorcycle large?', 'yes,no', 'yes');vqa(image, 'is the motorcycle large or small?', 'large,small,medium,huge', 'large')"
+  },
+  "mindalle_coco_111485": {
+    "text_id": "coco_111485",
+    "image_path": "mindalle/coco/coco_111485.png",
+    "text": "GUY WITH UMBRELLA HAT SITTING A TABLE WITH ANOTHER PERSON",
+    "code": "objectEval(image, 'person');vqa(image, 'who is sitting at the table?', 'person,animal,robot,alien', 'person');objectEval(image, 'umbrella hat');vqa(image, 'what type of hat is the person wearing?', 'umbrella hat,top hat,cowboy hat,baseball cap', 'umbrella hat');objectEval(image, 'table');vqa(image, 'what type of furniture is this?', 'table,chair,sofa,bed', 'table');countEval(objDet(image, 'person'), '==2');vqa(image, 'are the people sitting at the table?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_680517": {
+    "text_id": "coco_680517",
+    "image_path": "mindalle/coco/coco_680517.png",
+    "text": "A man in a wet suit is surfing.",
+    "code": "objectEval(image, 'man');vqa(image, 'who is surfing?', 'man,woman,boy,girl', 'man');objectEval(image, 'wet suit');vqa(image, 'what is the man wearing?', 'wet suit,swim trunks,board shorts,t-shirt', 'wet suit');vqa(image, 'is the man surfing?', 'yes,no', 'yes');vqa(image, 'what is the man doing?', 'surfing,swimming,diving,boating', 'surfing')"
+  },
+  "mindalle_coco_144234": {
+    "text_id": "coco_144234",
+    "image_path": "mindalle/coco/coco_144234.png",
+    "text": "A man is eating a loaded hot dog with people around him in a line.",
+    "code": "objectEval(image, 'man');vqa(image, 'who is eating the hot dog?', 'man,woman,boy,girl', 'man');objectEval(image, 'hot dog');vqa(image, 'what is the man eating?', 'hot dog,hamburger,pizza,taco', 'hot dog');vqa(image, 'is the hot dog loaded?', 'yes,no', 'yes');objectEval(image, 'person');spatialEval(image, 'man,people,line');vqa(image, 'are there people in a line?', 'yes,no', 'yes');countEval(objDet(image, 'person'), '>1');vqa(image, 'is the man eating the hot dog?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_751840": {
+    "text_id": "coco_751840",
+    "image_path": "mindalle/coco/coco_751840.png",
+    "text": "A man in a black suit surfing a large wave",
+    "code": "objectEval(image, 'man');vqa(image, 'who is surfing the wave?', 'man,woman,boy,girl', 'man');objectEval(image, 'suit');vqa(image, 'what is the man wearing?', 'suit,wetsuit,swimsuit,shorts', 'suit');objectEval(image, 'wave');vqa(image, 'what is the man surfing?', 'wave,board,raft,kayak', 'wave');vqa(image, 'is the man wearing a black suit?', 'yes,no', 'yes');vqa(image, 'what color is the man\\'s suit?', 'black,blue,gray,brown', 'black');countEval(objDet(image, 'man'), '==1');vqa(image, 'is the wave large?', 'yes,no', 'yes');vqa(image, 'is the wave small or large?', 'small,large,huge,gigantic', 'large');vqa(image, 'is the man surfing the wave?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_373633": {
+    "text_id": "coco_373633",
+    "image_path": "mindalle/coco/coco_373633.png",
+    "text": "Black and white photograph of a bed with a laptop on it.",
+    "code": "objectEval(image, 'bed');vqa(image, 'what type of furniture is this?', 'bed,chair,table,sofa', 'bed');objectEval(image, 'laptop');vqa(image, 'what type of device is this?', 'laptop,tablet,phone,desktop', 'laptop');vqa(image, 'is the photograph black and white?', 'yes,no', 'yes');vqa(image, 'what color is the photograph?', 'black and white,colorful,sepia,blue', 'black and white');vqa(image, 'is this a photograph?', 'yes,no', 'yes');vqa(image, 'is this a photograph, a painting, or a drawing?', 'photograph,painting,drawing,sculpture', 'photograph')"
+  },
+  "mindalle_coco_668102": {
+    "text_id": "coco_668102",
+    "image_path": "mindalle/coco/coco_668102.png",
+    "text": "A man sitting on a motorcycle smoking a cigarette.",
+    "code": "objectEval(image, 'man');vqa(image, 'who is sitting on the motorcycle?', 'man,woman,boy,girl', 'man');objectEval(image, 'motorcycle');vqa(image, 'what vehicle is the man sitting on?', 'motorcycle,bicycle,scooter,car', 'motorcycle');objectEval(image, 'cigarette');vqa(image, 'is the man smoking a cigarette?', 'yes,no', 'yes');vqa(image, 'is the man sitting on the motorcycle?', 'yes,no', 'yes');vqa(image, 'is the man smoking?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_627537": {
+    "text_id": "coco_627537",
+    "image_path": "mindalle/coco/coco_627537.png",
+    "text": "A pear, orange, and two bananas in a wooden bowl.",
+    "code": "objectEval(image, 'pear');vqa(image, 'is there a pear in the bowl?', 'yes,no', 'yes');objectEval(image, 'orange');vqa(image, 'is there an orange in the bowl?', 'yes,no', 'yes');objectEval(image, 'banana');count = countEval(objDet(image, 'banana'), '>1');if count == 2:;    vqa(image, 'are there two bananas in the bowl?', 'yes,no', 'yes');else:;    vqa(image, 'are there more than two bananas in the bowl?', 'yes,no', 'yes');objectEval(image, 'wooden bowl');vqa(image, 'what type of container is this?', 'wooden bowl,glass bowl,metal bowl,plastic bowl', 'wooden bowl');vqa(image, 'is the bowl made of wood?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_482435": {
+    "text_id": "coco_482435",
+    "image_path": "mindalle/coco/coco_482435.png",
+    "text": "Woman with blue dress sitting in modern chair next to vase in empty room.",
+    "code": "objectEval(image, 'woman');vqa(image, 'who is sitting in the chair?', 'woman,man,boy,girl', 'woman');vqa(image, 'is the woman wearing a blue dress?', 'yes,no', 'yes');vqa(image, 'what color is the woman\\'s dress?', 'blue,red,yellow,green', 'blue');objectEval(image, 'chair');vqa(image, 'what type of furniture is this?', 'chair,table,sofa,bed', 'chair');objectEval(image, 'vase');vqa(image, 'what is next to the chair?', 'vase,book,plant,sculpture', 'vase');objectEval(image, 'room');vqa(image, 'is this an empty room?', 'yes,no', 'yes');vqa(image, 'what type of room is this?', 'empty room,bedroom,kitchen,living room', 'empty room');vqa(image, 'is the chair modern?', 'yes,no', 'yes');vqa(image, 'what style is the chair?', 'modern,vintage,antique,classic', 'modern');vqa(image, 'is the woman sitting in the chair?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_653095": {
+    "text_id": "coco_653095",
+    "image_path": "mindalle/coco/coco_653095.png",
+    "text": "A group of giraffes are gathered together in their enclosure",
+    "code": "objectEval(image, 'giraffe');vqa(image, 'what animals are in the enclosure?', 'giraffes,zebras,elephants,lions', 'giraffes');objectEval(image, 'enclosure');vqa(image, 'where are the giraffes?', 'enclosure,field,forest,zoo', 'enclosure');countEval(objDet(image, 'giraffe'), '>1');vqa(image, 'are the giraffes in a group?', 'yes,no', 'yes');vqa(image, 'are the giraffes gathered together?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_828568": {
+    "text_id": "coco_828568",
+    "image_path": "mindalle/coco/coco_828568.png",
+    "text": "A red bike with white handles is locked to a black pole on a sidewalk.",
+    "code": "objectEval(image, 'bike');vqa(image, 'is this a bike?', 'yes,no', 'yes');objectEval(image, 'handles');vqa(image, 'what is on the bike?', 'handles,basket,light,bell', 'handles');objectEval(image, 'pole');vqa(image, 'what is the bike locked to?', 'pole,tree,bench,sign', 'pole');vqa(image, 'is the bike on a sidewalk?', 'yes,no', 'yes');vqa(image, 'what type of place is this?', 'sidewalk,park,street,building', 'sidewalk');vqa(image, 'is the bike red?', 'yes,no', 'yes');vqa(image, 'what color is the bike?', 'red,blue,green,yellow', 'red');vqa(image, 'are the handles white?', 'yes,no', 'yes');vqa(image, 'what color are the handles?', 'white,black,silver,gold', 'white');vqa(image, 'is the pole black?', 'yes,no', 'yes');vqa(image, 'what color is the pole?', 'black,silver,gold,white', 'black');vqa(image, 'is the bike locked to the pole?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_366619": {
+    "text_id": "coco_366619",
+    "image_path": "mindalle/coco/coco_366619.png",
+    "text": "People walking down a city sidewalk showing one with headphones.",
+    "code": "objectEval(image, 'person');vqa(image, 'are there people in the photo?', 'yes,no', 'yes');vqa(image, 'what are the people doing?', 'walking,running,sitting,standing', 'walking');objectEval(image, 'sidewalk');vqa(image, 'where are the people walking?', 'sidewalk,street,park,beach', 'sidewalk');objectEval(image, 'headphones');vqa(image, 'is one of the people wearing headphones?', 'yes,no', 'yes');vqa(image, 'what is one of the people wearing?', 'headphones,hat,glasses,scarf', 'headphones');countEval(objDet(image, 'person'), '>1');vqa(image, 'is this a city?', 'yes,no', 'yes');vqa(image, 'is this a city or a rural area?', 'city,rural area,suburb,forest', 'city')"
+  },
+  "mindalle_coco_100240": {
+    "text_id": "coco_100240",
+    "image_path": "mindalle/coco/coco_100240.png",
+    "text": "A barefoot woman eating food outside from a plate on her lap.",
+    "code": "objectEval(image, 'woman');vqa(image, 'who is eating food?', 'woman,man,boy,girl', 'woman');objectEval(image, 'food');vqa(image, 'what type of food is being eaten?', 'unknown', 'unknown');objectEval(image, 'plate');vqa(image, 'what is the food on?', 'plate,bowl,tray,napkin', 'plate');vqa(image, 'is the woman eating?', 'yes,no', 'yes');vqa(image, 'is the woman barefoot?', 'yes,no', 'yes');vqa(image, 'is the woman outside?', 'yes,no', 'yes');spatialEval(image, 'woman,plate,on lap');vqa(image, 'is the plate on the woman\\'s lap?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_318578": {
+    "text_id": "coco_318578",
+    "image_path": "mindalle/coco/coco_318578.png",
+    "text": "A group of stuffed animals sitting next to each other in bed.",
+    "code": "objectEval(image, 'stuffed animal');vqa(image, 'what objects are in the photo?', 'stuffed animals,dolls,action figures,toys', 'stuffed animals');objectEval(image, 'bed');vqa(image, 'what type of furniture is this?', 'bed,chair,sofa,table', 'bed');countEval(objDet(image, 'stuffed animal'), '>1');vqa(image, 'are there multiple stuffed animals?', 'yes,no', 'yes');vqa(image, 'are the stuffed animals sitting?', 'yes,no', 'yes');vqa(image, 'what are the stuffed animals doing?', 'sitting,standing,lying down,walking', 'sitting')"
+  },
+  "mindalle_coco_817577": {
+    "text_id": "coco_817577",
+    "image_path": "mindalle/coco/coco_817577.png",
+    "text": "A baseball player running to a base during a game at night. ",
+    "code": "objectEval(image, 'baseball player');vqa(image, 'who is running to a base?', 'baseball player,football player,basketball player,soccer player', 'baseball player');objectEval(image, 'base');vqa(image, 'what is the player running to?', 'base,ball,glove,bat', 'base');vqa(image, 'is this a game?', 'yes,no', 'yes');vqa(image, 'what type of game is this?', 'baseball,football,basketball,soccer', 'baseball');vqa(image, 'is this at night?', 'yes,no', 'yes');vqa(image, 'is this at night or during the day?', 'night,day,dawn,dusk', 'night');vqa(image, 'is the baseball player running to a base?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_663825": {
+    "text_id": "coco_663825",
+    "image_path": "mindalle/coco/coco_663825.png",
+    "text": "a train on a track near many trees ",
+    "code": "objectEval(image, 'train');vqa(image, 'is there a train on the track?', 'yes,no', 'yes');vqa(image, 'what type of vehicle is on the track?', 'train,car,motorcycle,bus', 'train');objectEval(image, 'track');vqa(image, 'is there a track?', 'yes,no', 'yes');vqa(image, 'what is on the ground?', 'track,road,grass,sand', 'track');objectEval(image, 'tree');vqa(image, 'are there trees near the track?', 'yes,no', 'yes');vqa(image, 'what is near the track?', 'trees,bushes,flowers,rocks', 'trees');countEval(objDet(image, 'tree'), '>5')"
+  },
+  "mindalle_coco_98071": {
+    "text_id": "coco_98071",
+    "image_path": "mindalle/coco/coco_98071.png",
+    "text": "A young man in a suit and tie with a beer in his hand.",
+    "code": "objectEval(image, 'man');vqa(image, 'who is holding a beer?', 'man,woman,boy,girl', 'man');objectEval(image, 'suit');vqa(image, 'is the man wearing a suit?', 'yes,no', 'yes');objectEval(image, 'tie');vqa(image, 'is the man wearing a tie?', 'yes,no', 'yes');objectEval(image, 'beer');vqa(image, 'what is the man holding?', 'beer,wine,cocktail,water', 'beer');vqa(image, 'is the man young?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_426642": {
+    "text_id": "coco_426642",
+    "image_path": "mindalle/coco/coco_426642.png",
+    "text": "A man at a food truck viewing the menu.",
+    "code": "objectEval(image, 'man');vqa(image, 'who is at the food truck?', 'man,woman,boy,girl', 'man');objectEval(image, 'food truck');vqa(image, 'what type of vehicle is this?', 'food truck,car,van,bus', 'food truck');textEval(ocr(image), 'menu');vqa(image, 'is the man viewing the menu?', 'yes,no', 'yes');vqa(image, 'what is the man doing at the food truck?', 'viewing,ordering,paying,eating', 'viewing')"
+  },
+  "mindalle_coco_393304": {
+    "text_id": "coco_393304",
+    "image_path": "mindalle/coco/coco_393304.png",
+    "text": "a group of beginner snow skiers having class",
+    "code": "objectEval(image, 'snow skier');vqa(image, 'what are the people doing?', 'having class,competing,practicing,playing', 'having class');countEval(objDet(image, 'snow skier'), '>1');vqa(image, 'is this a group of people?', 'yes,no', 'yes');vqa(image, 'are the snow skiers beginners?', 'yes,no', 'yes');vqa(image, 'what is the level of the snow skiers?', 'beginner,intermediate,advanced,expert', 'beginner')"
+  },
+  "mindalle_coco_479450": {
+    "text_id": "coco_479450",
+    "image_path": "mindalle/coco/coco_479450.png",
+    "text": "A red plate topped with broccoli, meat and veggies.",
+    "code": "objectEval(image, 'plate');vqa(image, 'what is on the plate?', 'broccoli,meat,veggies,rice', 'broccoli,meat,veggies');objectEval(image, 'broccoli');vqa(image, 'is there broccoli on the plate?', 'yes,no', 'yes');vqa(image, 'what type of vegetable is on the plate?', 'broccoli,carrots,peas,beans', 'broccoli');objectEval(image, 'meat');vqa(image, 'is there meat on the plate?', 'yes,no', 'yes');vqa(image, 'what type of meat is on the plate?', 'beef,chicken,pork,fish', 'beef,chicken,pork');objectEval(image, 'veggies');vqa(image, 'are there veggies on the plate?', 'yes,no', 'yes');vqa(image, 'what type of veggies are on the plate?', 'carrots,peas,beans,broccoli', 'carrots,peas,beans');vqa(image, 'is the plate red?', 'yes,no', 'yes');vqa(image, 'what color is the plate?', 'red,blue,green,yellow', 'red');vqa(image, 'what is the plate topped with?', 'broccoli,meat,veggies,rice', 'broccoli,meat,veggies')"
+  },
+  "mindalle_coco_226941": {
+    "text_id": "coco_226941",
+    "image_path": "mindalle/coco/coco_226941.png",
+    "text": "A sheep with short hair stands under a fence.",
+    "code": "objectEval(image, 'sheep');vqa(image, 'what animal is under the fence?', 'sheep,cow,horse,pig', 'sheep');vqa(image, 'does the sheep have short hair?', 'yes,no', 'yes');vqa(image, 'what is the length of the sheep\\'s hair?', 'short,long,medium,bald', 'short');objectEval(image, 'fence');vqa(image, 'what is the sheep under?', 'fence,tree,roof,bridge', 'fence');spatialEval(image, 'sheep,fence,under');vqa(image, 'is the sheep standing under the fence?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_494204": {
+    "text_id": "coco_494204",
+    "image_path": "mindalle/coco/coco_494204.png",
+    "text": "The woman is on the court playing a game of tennis. ",
+    "code": "objectEval(image, 'woman');vqa(image, 'who is playing tennis?', 'woman,man,boy,girl', 'woman');objectEval(image, 'court');vqa(image, 'where is the woman playing tennis?', 'court,park,beach,backyard', 'court');vqa(image, 'is the woman playing a game?', 'yes,no', 'yes');vqa(image, 'what game is the woman playing?', 'tennis,basketball,volleyball,football', 'tennis');vqa(image, 'is the woman playing tennis?', 'yes,no', 'yes');vqa(image, 'what sport is the woman playing?', 'tennis,basketball,volleyball,football', 'tennis');vqa(image, 'is the woman playing tennis?', 'yes,no', 'yes');vqa(image, 'what is the woman doing on the court?', 'playing,coaching,watching,resting', 'playing')"
+  },
+  "mindalle_coco_632032": {
+    "text_id": "coco_632032",
+    "image_path": "mindalle/coco/coco_632032.png",
+    "text": "a large clock hangs from a building and reads 12:43",
+    "code": "objectEval(image, 'clock');vqa(image, 'what is on the building?', 'clock,sign,flag,poster', 'clock');vqa(image, 'is this a clock?', 'yes,no', 'yes');objectEval(image, 'building');vqa(image, 'what type of structure is this?', 'building,bridge,tower,house', 'building');textEval(ocr(image), '12:43');vqa(image, 'what time does the clock show?', '12:43,1:23,2:34,3:45', '12:43');vqa(image, 'is the clock large?', 'yes,no', 'yes');spatialEval(image, 'clock,building,hanging from');vqa(image, 'is the clock hanging from the building?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_325049": {
+    "text_id": "coco_325049",
+    "image_path": "mindalle/coco/coco_325049.png",
+    "text": "A group of planes near a large wall of windows.",
+    "code": "objectEval(image, 'plane');vqa(image, 'are there planes in the picture?', 'yes,no', 'yes');vqa(image, 'what objects are in the picture?', 'planes,cars,trains,boats', 'planes');objectEval(image, 'wall of windows');vqa(image, 'is there a wall of windows?', 'yes,no', 'yes');vqa(image, 'what is in the background?', 'wall of windows,forest,mountains,city', 'wall of windows');countEval(objDet(image, 'plane'), '>1');vqa(image, 'how many planes are there?', '1,2,3,4', '>1');vqa(image, 'is the wall of windows large?', 'yes,no', 'yes');vqa(image, 'is the wall of windows large or small?', 'large,small,medium,huge', 'large')"
+  },
+  "mindalle_coco_120896": {
+    "text_id": "coco_120896",
+    "image_path": "mindalle/coco/coco_120896.png",
+    "text": "A boy standing in the door of a bus.",
+    "code": "objectEval(image, 'boy');vqa(image, 'who is standing in the door of the bus?', 'boy,girl,man,woman', 'boy');objectEval(image, 'bus');vqa(image, 'what type of vehicle is this?', 'bus,car,truck,motorcycle', 'bus');objectEval(image, 'door');vqa(image, 'what is the boy standing in?', 'door,window,seat,aisle', 'door');vqa(image, 'is the boy standing?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_178484": {
+    "text_id": "coco_178484",
+    "image_path": "mindalle/coco/coco_178484.png",
+    "text": "Shot of a person in a wooden boat on the shore of a beach.",
+    "code": "objectEval(image, 'person');vqa(image, 'who is in the wooden boat?', 'person,animal,robot,alien', 'person');objectEval(image, 'wooden boat');vqa(image, 'what type of boat is this?', 'wooden boat,plastic boat,metal boat,inflatable boat', 'wooden boat');objectEval(image, 'shore');vqa(image, 'is the boat on the shore?', 'yes,no', 'yes');vqa(image, 'where is the boat?', 'shore,river,lake,ocean', 'shore');vqa(image, 'is this a beach?', 'yes,no', 'yes');vqa(image, 'what type of place is this?', 'beach,park,forest,mountain', 'beach');vqa(image, 'is this a shot?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_744388": {
+    "text_id": "coco_744388",
+    "image_path": "mindalle/coco/coco_744388.png",
+    "text": "Closeup picture of the front of a clean motorcycle.",
+    "code": "objectEval(image, 'motorcycle');vqa(image, 'what is in the picture?', 'motorcycle,car,bicycle,truck', 'motorcycle');vqa(image, 'is this a closeup?', 'yes,no', 'yes');vqa(image, 'is this the front of the motorcycle?', 'yes,no', 'yes');vqa(image, 'is the motorcycle clean?', 'yes,no', 'yes');vqa(image, 'is the motorcycle clean or dirty?', 'clean,dirty,shiny,dusty', 'clean')"
+  },
+  "mindalle_coco_290223": {
+    "text_id": "coco_290223",
+    "image_path": "mindalle/coco/coco_290223.png",
+    "text": "An assortment of fruits and vegetable all set together",
+    "code": "objectEval(image, 'fruit');vqa(image, 'are there fruits in the picture?', 'yes,no', 'yes');objectEval(image, 'vegetable');vqa(image, 'are there vegetables in the picture?', 'yes,no', 'yes');countEval(objDet(image, 'fruit')+objDet(image, 'vegetable'), '>1');vqa(image, 'is this an assortment of fruits and vegetables?', 'yes,no', 'yes');spatialEval(image, 'fruit,vegetable,together');vqa(image, 'are the fruits and vegetables set together?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_816278": {
+    "text_id": "coco_816278",
+    "image_path": "mindalle/coco/coco_816278.png",
+    "text": "A row of motorcycles parked on the side of a road.",
+    "code": "objectEval(image, 'motorcycle');vqa(image, 'what type of vehicles are parked on the side of the road?', 'motorcycles,cars,trucks,bicycles', 'motorcycles');objectEval(image, 'road');vqa(image, 'where are the motorcycles parked?', 'on the road,by the river,in the park,on the sidewalk', 'on the side of the road');vqa(image, 'are the motorcycles parked?', 'yes,no', 'yes');countEval(objDet(image, 'motorcycle'), '>1');vqa(image, 'how many motorcycles are parked?', '1,2,3,4', 'a row') # Note: this answer is subjective and may vary depending on the image."
+  },
+  "mindalle_coco_435097": {
+    "text_id": "coco_435097",
+    "image_path": "mindalle/coco/coco_435097.png",
+    "text": "Some very big furry brown bears in a big grass field.",
+    "code": "objectEval(image, 'bear');vqa(image, 'what animals are in the field?', 'bears,lions,tigers,wolves', 'bears');objectEval(image, 'grass field');vqa(image, 'what type of place is this?', 'grass field,forest,desert,mountain', 'grass field');vqa(image, 'are the bears brown?', 'yes,no', 'yes');vqa(image, 'what color are the bears?', 'brown,black,white,yellow', 'brown');countEval(objDet(image, 'bear'), '>0');vqa(image, 'are the bears very big?', 'yes,no', 'yes');vqa(image, 'are the bears very big or just big?', 'very big,big,medium,small', 'very big');vqa(image, 'are the bears furry?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_352431": {
+    "text_id": "coco_352431",
+    "image_path": "mindalle/coco/coco_352431.png",
+    "text": "A woman sitting on a couch in front of a laptop.",
+    "code": "objectEval(image, 'woman');vqa(image, 'who is sitting on the couch?', 'woman,man,boy,girl', 'woman');objectEval(image, 'couch');vqa(image, 'what is the woman sitting on?', 'couch,chair,bed,stool', 'couch');objectEval(image, 'laptop');vqa(image, 'what is the woman using?', 'laptop,tablet,phone,desktop', 'laptop');vqa(image, 'is the woman sitting?', 'yes,no', 'yes');vqa(image, 'is the woman using the laptop?', 'yes,no', 'yes');spatialEval(image, 'woman,laptop,in front of');vqa(image, 'is the woman in front of the laptop?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_758774": {
+    "text_id": "coco_758774",
+    "image_path": "mindalle/coco/coco_758774.png",
+    "text": "A lady wearing red playing tennis on a blue and green court.",
+    "code": "objectEval(image, 'lady');vqa(image, 'who is playing tennis?', 'man,woman,boy,girl', 'woman');vqa(image, 'is the lady playing tennis?', 'yes,no', 'yes');vqa(image, 'what sport is the lady playing?', 'tennis,basketball,football,soccer', 'tennis');objectEval(image, 'court');vqa(image, 'what type of place is this?', 'tennis court,basketball court,football field,soccer field', 'tennis court');vqa(image, 'is the lady wearing red?', 'yes,no', 'yes');vqa(image, 'what color is the lady wearing?', 'red,blue,green,yellow', 'red');vqa(image, 'is the court blue?', 'yes,no', 'yes');vqa(image, 'what color is the court?', 'blue,green,red,yellow', 'blue');vqa(image, 'is the court green?', 'yes,no', 'yes');vqa(image, 'what color is the court?', 'blue,green,red,yellow', 'green');vqa(image, 'is the lady playing tennis?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_625027": {
+    "text_id": "coco_625027",
+    "image_path": "mindalle/coco/coco_625027.png",
+    "text": "A white slope covers the background, while the foreground features a grassy slope with several rams grazing and one measly and underdeveloped evergreen in the foreground.  ",
+    "code": "objectEval(image, 'slope');vqa(image, 'what is in the background?', 'slope,mountain,building,sky', 'slope');objectEval(image, 'grassy slope');vqa(image, 'what is in the foreground?', 'grassy slope,beach,field,forest', 'grassy slope');objectEval(image, 'ram');vqa(image, 'what animals are grazing?', 'rams,sheep,cows,horses', 'rams');countEval(objDet(image, 'ram'), '>1');countEval(objDet(image, 'evergreen'), '==1');objectEval(image, 'evergreen');vqa(image, 'what is in the foreground?', 'evergreen,oak tree,pine tree,maple tree', 'evergreen');vqa(image, 'is the evergreen underdeveloped?', 'yes,no', 'yes');vqa(image, 'are the rams grazing?', 'yes,no', 'yes');vqa(image, 'is the background white?', 'yes,no', 'yes');vqa(image, 'what color is the background?', 'white,black,green,brown', 'white');spatialEval(image, 'rams,evergreen,in front of');vqa(image, 'are the rams in the foreground or the background?', 'foreground,background,middle ground,sky', 'foreground')"
+  },
+  "mindalle_coco_339729": {
+    "text_id": "coco_339729",
+    "image_path": "mindalle/coco/coco_339729.png",
+    "text": "A boy wearing a green shirt posing with some fruit.",
+    "code": "objectEval(image, 'boy');vqa(image, 'who is posing with fruit?', 'boy,girl,man,woman', 'boy');vqa(image, 'is the boy wearing a green shirt?', 'yes,no', 'yes');vqa(image, 'what color is the boy\\'s shirt?', 'green,blue,red,yellow', 'green');objectEval(image, 'fruit');vqa(image, 'is the boy posing with fruit?', 'yes,no', 'yes');vqa(image, 'what type of fruit is the boy posing with?', 'apple,orange,banana,grape', 'fruit');countEval(objDet(image, 'fruit'), '>0');vqa(image, 'is the boy posing with fruit?', 'yes,no', 'yes');vqa(image, 'what is the boy doing besides holding the fruit?', 'posing,running,jumping,sitting', 'posing')"
+  },
+  "mindalle_coco_130602": {
+    "text_id": "coco_130602",
+    "image_path": "mindalle/coco/coco_130602.png",
+    "text": "Woman dressed in black, smiling and brushing her teeth",
+    "code": "objectEval(image, 'woman');vqa(image, 'who is brushing her teeth?', 'woman,man,boy,girl', 'woman');objectEval(image, 'toothbrush');vqa(image, 'what is the woman using to brush her teeth?', 'toothbrush,finger,pen,pencil', 'toothbrush');vqa(image, 'is the woman brushing her teeth?', 'yes,no', 'yes');vqa(image, 'is the woman smiling?', 'yes,no', 'yes');vqa(image, 'is the woman dressed in black?', 'yes,no', 'yes');vqa(image, 'what color is the woman wearing?', 'black,white,red,blue', 'black');vqa(image, 'is the woman dressed?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_655658": {
+    "text_id": "coco_655658",
+    "image_path": "mindalle/coco/coco_655658.png",
+    "text": "A man in a black shirt plays on an ocean wave.",
+    "code": "objectEval(image, 'man');vqa(image, 'who is playing on the ocean wave?', 'man,woman,boy,girl', 'man');vqa(image, 'is the man wearing a black shirt?', 'yes,no', 'yes');vqa(image, 'what color is the man\\'s shirt?', 'black,white,red,blue', 'black');objectEval(image, 'ocean wave');vqa(image, 'what is the man playing on?', 'ocean wave,surfboard,boat,raft', 'ocean wave');vqa(image, 'is the man playing on the ocean wave?', 'yes,no', 'yes');vqa(image, 'what is the man doing on the ocean wave?', 'playing,surfing,swimming,diving', 'playing')"
+  },
+  "mindalle_coco_179805": {
+    "text_id": "coco_179805",
+    "image_path": "mindalle/coco/coco_179805.png",
+    "text": "Some people posting in front of a camera for a picture. ",
+    "code": "objectEval(image, 'person');vqa(image, 'who is posing for a picture?', 'person,animal,robot,alien', 'person');objectEval(image, 'camera');vqa(image, 'what is being used to take the picture?', 'camera,phone,tablet,computer', 'camera');vqa(image, 'are the people posing for a picture?', 'yes,no', 'yes');vqa(image, 'what are the people posing for?', 'picture,video,performance,audition', 'picture');countEval(objDet(image, 'person'), '>0');spatialEval(image, 'people,camera,in front of');vqa(image, 'are the people in front of the camera?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_322041": {
+    "text_id": "coco_322041",
+    "image_path": "mindalle/coco/coco_322041.png",
+    "text": "two laptops a mouse cords wires and a monitor ",
+    "code": "objectEval(image, 'laptop');vqa(image, 'are there laptops in the picture?', 'yes,no', 'yes');vqa(image, 'how many laptops are there?', '1,2,3,4', '2');objectEval(image, 'mouse');vqa(image, 'is there a mouse in the picture?', 'yes,no', 'yes');objectEval(image, 'cord');vqa(image, 'are there cords in the picture?', 'yes,no', 'yes');objectEval(image, 'wire');vqa(image, 'are there wires in the picture?', 'yes,no', 'yes');objectEval(image, 'monitor');vqa(image, 'is there a monitor in the picture?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_552592": {
+    "text_id": "coco_552592",
+    "image_path": "mindalle/coco/coco_552592.png",
+    "text": "A group of children sitting in the grass with two of them holding a Frisbee .",
+    "code": "objectEval(image, 'child');vqa(image, 'who is in the picture?', 'children,adults,animals,robots', 'children');objectEval(image, 'grass');vqa(image, 'what is on the ground?', 'grass,sand,concrete,water', 'grass');objectEval(image, 'Frisbee');vqa(image, 'is there a Frisbee in the picture?', 'yes,no', 'yes');vqa(image, 'what is in the hands of two children?', 'Frisbee,ball,book,toy', 'Frisbee');vqa(image, 'are the children sitting?', 'yes,no', 'yes');countEval(objDet(image, 'child'), '>1');vqa(image, 'is this a group of children?', 'yes,no', 'yes');countEval(objDet(image, 'Frisbee'), '==2');vqa(image, 'how many children are holding the Frisbee?', '1,2,3,4', '2');vqa(image, 'are two children holding the Frisbee?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_494732": {
+    "text_id": "coco_494732",
+    "image_path": "mindalle/coco/coco_494732.png",
+    "text": "A man in a green suiit leaning over a laptop",
+    "code": "objectEval(image, 'man');vqa(image, 'who is leaning over the laptop?', 'man,woman,boy,girl', 'man');vqa(image, 'is the man wearing a green suit?', 'yes,no', 'yes');vqa(image, 'what color is the man\\'s suit?', 'green,blue,red,black', 'green');objectEval(image, 'laptop');vqa(image, 'is there a laptop in the picture?', 'yes,no', 'yes');vqa(image, 'is the man leaning over the laptop?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_661609": {
+    "text_id": "coco_661609",
+    "image_path": "mindalle/coco/coco_661609.png",
+    "text": "A grey motorcycle on dirt road next to a building.",
+    "code": "objectEval(image, 'motorcycle');vqa(image, 'what vehicle is on the dirt road?', 'motorcycle,bicycle,car,truck', 'motorcycle');objectEval(image, 'dirt road');vqa(image, 'what type of road is this?', 'dirt road,asphalt road,concrete road,gravel road', 'dirt road');objectEval(image, 'building');vqa(image, 'is there a building next to the dirt road?', 'yes,no', 'yes');vqa(image, 'what is next to the dirt road?', 'building,tree,rock,river', 'building');vqa(image, 'is the motorcycle grey?', 'yes,no', 'yes');vqa(image, 'what color is the motorcycle?', 'grey,black,white,red', 'grey')"
+  },
+  "mindalle_coco_224178": {
+    "text_id": "coco_224178",
+    "image_path": "mindalle/coco/coco_224178.png",
+    "text": "A table topped with bags of luggage and purses.",
+    "code": "objectEval(image, 'table');vqa(image, 'what is on the table?', 'bags,luggage,purses,books', 'bags,luggage,purses');objectEval(image, 'bag');vqa(image, 'are there bags on the table?', 'yes,no', 'yes');vqa(image, 'what type of bags are on the table?', 'luggage bags,purse bags,school bags,shopping bags', 'luggage bags,purse bags');objectEval(image, 'luggage');vqa(image, 'is there luggage on the table?', 'yes,no', 'yes');vqa(image, 'what type of luggage is on the table?', 'suitcases,backpacks,duffel bags,carry-on bags', 'suitcases,duffel bags,carry-on bags');objectEval(image, 'purse');vqa(image, 'are there purses on the table?', 'yes,no', 'yes');vqa(image, 'what type of purses are on the table?', 'clutch purses,tote purses,shoulder purses,backpack purses', 'clutch purses,tote purses,shoulder purses');spatialEval(image, 'table,bags,on top of');vqa(image, 'are the bags and purses on top of the table?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_827653": {
+    "text_id": "coco_827653",
+    "image_path": "mindalle/coco/coco_827653.png",
+    "text": "People are wearing helmets standing next to bikes in the woods.",
+    "code": "objectEval(image, 'person');vqa(image, 'who is standing next to the bikes?', 'people,animals,robots,aliens', 'people');objectEval(image, 'helmet');vqa(image, 'are the people wearing helmets?', 'yes,no', 'yes');vqa(image, 'what type of headgear are the people wearing?', 'helmets,hats,caps,beanies', 'helmets');objectEval(image, 'bike');vqa(image, 'are there bikes in the picture?', 'yes,no', 'yes');vqa(image, 'what type of vehicle is in the picture?', 'bikes,cars,trucks,buses', 'bikes');objectEval(image, 'woods');vqa(image, 'where are the people and bikes?', 'woods,park,beach,city', 'woods');vqa(image, 'are the people standing?', 'yes,no', 'yes');spatialEval(image, 'people,bikes,next to');vqa(image, 'are the people standing next to the bikes?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_511363": {
+    "text_id": "coco_511363",
+    "image_path": "mindalle/coco/coco_511363.png",
+    "text": "A woman is bent over next to a small refrigerator.",
+    "code": "objectEval(image, 'woman');vqa(image, 'who is next to the refrigerator?', 'woman,man,boy,girl', 'woman');objectEval(image, 'refrigerator');vqa(image, 'is there a refrigerator in the picture?', 'yes,no', 'yes');vqa(image, 'what type of appliance is this?', 'refrigerator,oven,microwave,blender', 'refrigerator');vqa(image, 'is the refrigerator small?', 'yes,no', 'yes');vqa(image, 'what size is the refrigerator?', 'small,medium,large,huge', 'small');vqa(image, 'is the woman bent over?', 'yes,no', 'yes');spatialEval(image, 'woman,refrigerator,next to')"
+  },
+  "mindalle_coco_54581": {
+    "text_id": "coco_54581",
+    "image_path": "mindalle/coco/coco_54581.png",
+    "text": "A group of surfers are carrying their surf boards into the ocean.",
+    "code": "objectEval(image, 'surfer');vqa(image, 'who is carrying the surf boards?', 'surfers,swimmers,divers,boaters', 'surfers');objectEval(image, 'surf board');vqa(image, 'what are the surfers carrying?', 'surf boards,kayaks,canoes,paddle boards', 'surf boards');vqa(image, 'where are the surfers carrying their surf boards?', 'ocean,river,lake,pool', 'ocean');vqa(image, 'are the surfers carrying their surf boards?', 'yes,no', 'yes');countEval(objDet(image, 'surfer'), '>1')"
+  },
+  "mindalle_coco_544405": {
+    "text_id": "coco_544405",
+    "image_path": "mindalle/coco/coco_544405.png",
+    "text": "a woman in a black jacket and a pizza ",
+    "code": "objectEval(image, 'woman');vqa(image, 'who is in the picture?', 'woman,man,boy,girl', 'woman');objectEval(image, 'jacket');vqa(image, 'is the woman wearing a black jacket?', 'yes,no', 'yes');objectEval(image, 'pizza');vqa(image, 'what food is in the picture?', 'pizza,burger,sandwich,taco', 'pizza');vqa(image, 'is the woman holding a pizza?', 'yes,no', 'yes');vqa(image, 'is the woman eating the pizza?', 'yes,no', 'no');vqa(image, 'is the pizza in a box?', 'yes,no', 'no')"
+  },
+  "mindalle_coco_464482": {
+    "text_id": "coco_464482",
+    "image_path": "mindalle/coco/coco_464482.png",
+    "text": "A sign laying on a lush green field near a body of water.",
+    "code": "objectEval(image, 'sign');vqa(image, 'is there a sign in the picture?', 'yes,no', 'yes');objectEval(image, 'field');vqa(image, 'what type of place is this?', 'field,forest,desert,mountain', 'field');objectEval(image, 'body of water');vqa(image, 'is there a body of water in the picture?', 'yes,no', 'yes');vqa(image, 'what type of body of water is this?', 'lake,river,ocean,pond', 'body of water');spatialEval(image, 'sign,field,on');vqa(image, 'is the sign laying on the field?', 'yes,no', 'yes');vqa(image, 'is the field lush green?', 'yes,no', 'yes');vqa(image, 'what color is the field?', 'lush green,brown,yellow,gray', 'lush green')"
+  },
+  "mindalle_coco_555553": {
+    "text_id": "coco_555553",
+    "image_path": "mindalle/coco/coco_555553.png",
+    "text": "Three zebras eat hay in black and white.",
+    "code": "objectEval(image, 'zebra');vqa(image, 'what animals are in the photo?', 'zebras,horses,cows,sheep', 'zebras');objectEval(image, 'hay');vqa(image, 'what are the zebras eating?', 'hay,grass,leaves,twigs', 'hay');vqa(image, 'are the zebras eating?', 'yes,no', 'yes');vqa(image, 'are the zebras black and white?', 'yes,no', 'yes');vqa(image, 'what color are the zebras?', 'black and white,gray,brown,white', 'black and white');countEval(objDet(image, 'zebra'), '==3')"
+  },
+  "mindalle_coco_645405": {
+    "text_id": "coco_645405",
+    "image_path": "mindalle/coco/coco_645405.png",
+    "text": "A teddy bear under some furniture that appears to be turned on it's side.",
+    "code": "objectEval(image, 'teddy bear');vqa(image, 'is there a teddy bear in the picture?', 'yes,no', 'yes');objectEval(image, 'furniture');vqa(image, 'is there furniture in the picture?', 'yes,no', 'yes');vqa(image, 'what type of furniture is in the picture?', 'chair,table,sofa,bed', 'furniture');spatialEval(image, 'teddy bear,furniture,under');vqa(image, 'is the teddy bear under the furniture?', 'yes,no', 'yes');spatialEval(image, 'furniture,turned on its side');vqa(image, 'is the furniture turned on its side?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_559555": {
+    "text_id": "coco_559555",
+    "image_path": "mindalle/coco/coco_559555.png",
+    "text": "A large giraffe looks at a smaller giraffe looking over a fence.",
+    "code": "objectEval(image, 'giraffe');vqa(image, 'what animal is in the picture?', 'giraffe,elephant,lion,zebra', 'giraffe');objectEval(image, 'fence');vqa(image, 'what is in the background?', 'fence,tree,building,sky', 'fence');vqa(image, 'is the large giraffe looking at the smaller giraffe?', 'yes,no', 'yes');vqa(image, 'what are the giraffes doing?', 'looking,eating,running,sleeping', 'looking');vqa(image, 'is the giraffe in the foreground large?', 'yes,no', 'yes');vqa(image, 'which giraffe is larger?', 'large one,small one,they are the same size', 'large one');vqa(image, 'is the giraffe in the background small?', 'yes,no', 'yes');vqa(image, 'which giraffe is smaller?', 'small one,large one,they are the same size', 'small one');countEval(objDet(image, 'giraffe'), '==2')"
+  },
+  "mindalle_coco_685662": {
+    "text_id": "coco_685662",
+    "image_path": "mindalle/coco/coco_685662.png",
+    "text": "A man and a woman posing in front of a motorcycle.\n",
+    "code": "objectEval(image, 'man');vqa(image, 'who is posing in front of the motorcycle?', 'man,woman,boy,girl', 'man');objectEval(image, 'woman');vqa(image, 'who is posing in front of the motorcycle?', 'man,woman,boy,girl', 'woman');objectEval(image, 'motorcycle');vqa(image, 'what is in the picture?', 'motorcycle,car,bicycle,truck', 'motorcycle');countEval(objDet(image, 'person'), '==2');vqa(image, 'how many people are posing in front of the motorcycle?', '1,2,3,4', '2');vqa(image, 'are the man and woman posing?', 'yes,no', 'yes');spatialEval(image, 'man,motorcycle,in front of');spatialEval(image, 'woman,motorcycle,in front of');vqa(image, 'are the man and woman in front of the motorcycle?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_544211": {
+    "text_id": "coco_544211",
+    "image_path": "mindalle/coco/coco_544211.png",
+    "text": "The beach is crowded red and white beach umbrellas.",
+    "code": "objectEval(image, 'beach');vqa(image, 'what type of place is this?', 'beach,park,forest,mountain', 'beach');objectEval(image, 'umbrella');vqa(image, 'are there umbrellas on the beach?', 'yes,no', 'yes');vqa(image, 'what is on the beach?', 'umbrellas,towels,beach balls,sand castles', 'umbrellas');vqa(image, 'are the umbrellas red and white?', 'yes,no', 'yes');vqa(image, 'what color are the umbrellas?', 'red and white,blue and white,green and white,yellow and white', 'red and white');countEval(objDet(image, 'umbrella'), '>10');vqa(image, 'is the beach crowded?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_720267": {
+    "text_id": "coco_720267",
+    "image_path": "mindalle/coco/coco_720267.png",
+    "text": "three men riding horses through a grassy field",
+    "code": "objectEval(image, 'man');vqa(image, 'who is riding horses?', 'men,women,children,animals', 'men');objectEval(image, 'horse');vqa(image, 'what animals are in the picture?', 'horses,cows,sheep,goats', 'horses');objectEval(image, 'field');vqa(image, 'where are the men and horses?', 'field,forest,beach,mountain', 'field');vqa(image, 'are the men riding horses?', 'yes,no', 'yes');countEval(objDet(image, 'man'), '==3');vqa(image, 'how many men are riding horses?', '1,2,3,4', '3');vqa(image, 'is the field grassy?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_103653": {
+    "text_id": "coco_103653",
+    "image_path": "mindalle/coco/coco_103653.png",
+    "text": "Two men in neon yellow safety jackets sharing a meal next to a food car.",
+    "code": "objectEval(image, 'man');vqa(image, 'how many men are in the photo?', '1,2,3,4', '2');objectEval(image, 'safety jacket');vqa(image, 'what type of clothing are the men wearing?', 'safety jackets,suits,t-shirts,hoodies', 'safety jackets');objectEval(image, 'meal');vqa(image, 'what are the men sharing?', 'meal,drink,snack,dessert', 'meal');objectEval(image, 'food car');vqa(image, 'what type of vehicle is this?', 'food car,ambulance,fire truck,ice cream truck', 'food car');vqa(image, 'are the safety jackets neon yellow?', 'yes,no', 'yes');vqa(image, 'what color are the safety jackets?', 'neon yellow,orange,green,pink', 'neon yellow');countEval(objDet(image, 'man'), '==2');vqa(image, 'are the men sharing a meal?', 'yes,no', 'yes');spatialEval(image, 'men,food car,next to');vqa(image, 'are the men next to a food car?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_800322": {
+    "text_id": "coco_800322",
+    "image_path": "mindalle/coco/coco_800322.png",
+    "text": "a dog is laying with a remote controller",
+    "code": "objectEval(image, 'dog');vqa(image, 'what animal is in the photo?', 'dog,cat,bird,fish', 'dog');objectEval(image, 'remote controller');vqa(image, 'what is the dog laying with?', 'remote controller,phone,book,ball', 'remote controller');vqa(image, 'is the dog laying?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_488166": {
+    "text_id": "coco_488166",
+    "image_path": "mindalle/coco/coco_488166.png",
+    "text": "Three people standing next to an elephant along a river.",
+    "code": "objectEval(image, 'person');vqa(image, 'how many people are in the photo?', '1,2,3,4', '3');objectEval(image, 'elephant');vqa(image, 'what animal is in the photo?', 'elephant,lion,tiger,bear', 'elephant');objectEval(image, 'river');vqa(image, 'what type of body of water is this?', 'river,lake,ocean,pond', 'river');vqa(image, 'are the people standing?', 'yes,no', 'yes');spatialEval(image, 'people,elephant,next to');vqa(image, 'are the people next to the elephant?', 'yes,no', 'yes');spatialEval(image, 'people,river,along');vqa(image, 'are the people along the river?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_558559": {
+    "text_id": "coco_558559",
+    "image_path": "mindalle/coco/coco_558559.png",
+    "text": "Guy sitting down and using his cell during the party",
+    "code": "objectEval(image, 'guy');vqa(image, 'who is using the cell phone?', 'guy,woman,boy,girl', 'guy');objectEval(image, 'cell phone');vqa(image, 'what is the guy using?', 'cell phone,laptop,tablet,smartwatch', 'cell phone');vqa(image, 'is this a party?', 'yes,no', 'yes');vqa(image, 'what type of event is this?', 'party,wedding,meeting,concert', 'party');vqa(image, 'is the guy sitting?', 'yes,no', 'yes');vqa(image, 'is the guy using his cell phone?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_573015": {
+    "text_id": "coco_573015",
+    "image_path": "mindalle/coco/coco_573015.png",
+    "text": "The people are flying the kites in the sky.",
+    "code": "objectEval(image, 'person');vqa(image, 'who is flying the kites?', 'people,animals,robots,aliens', 'people');objectEval(image, 'kite');vqa(image, 'what is in the sky?', 'kites,birds,planes,clouds', 'kites');vqa(image, 'where are the kites being flown?', 'sky,water,land,building', 'sky');vqa(image, 'are the people flying the kites?', 'yes,no', 'yes');vqa(image, 'what are the people doing with the kites?', 'flying,running,walking,throwing', 'flying')"
+  },
+  "mindalle_coco_20046": {
+    "text_id": "coco_20046",
+    "image_path": "mindalle/coco/coco_20046.png",
+    "text": "An elevated subway train in a major city on a sunny day.",
+    "code": "objectEval(image, 'subway train');vqa(image, 'what type of vehicle is this?', 'subway train,bus,taxi,car', 'subway train');objectEval(image, 'city');vqa(image, 'what type of place is this?', 'city,town,village,countryside', 'city');vqa(image, 'is the subway train elevated?', 'yes,no', 'yes');vqa(image, 'is the subway train elevated or underground?', 'elevated,underground,at ground level,underwater', 'elevated');vqa(image, 'is it a sunny day?', 'yes,no', 'yes');vqa(image, 'is it a sunny day or a cloudy day?', 'sunny,cloudy,rainy,snowy', 'sunny')"
+  },
+  "mindalle_coco_251210": {
+    "text_id": "coco_251210",
+    "image_path": "mindalle/coco/coco_251210.png",
+    "text": "A man standing by an oven with the door open.",
+    "code": "objectEval(image, 'man');vqa(image, 'who is standing by the oven?', 'man,woman,boy,girl', 'man');objectEval(image, 'oven');vqa(image, 'what is the man standing by?', 'oven,stove,microwave,refrigerator', 'oven');objectEval(image, 'door');vqa(image, 'is the oven door open?', 'yes,no', 'yes');vqa(image, 'is the man standing?', 'yes,no', 'yes');vqa(image, 'is the oven door open?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_492730": {
+    "text_id": "coco_492730",
+    "image_path": "mindalle/coco/coco_492730.png",
+    "text": "A woman holding a racquet on top of a tennis court.",
+    "code": "objectEval(image, 'woman');vqa(image, 'who is holding a racquet?', 'woman,man,boy,girl', 'woman');objectEval(image, 'racquet');vqa(image, 'what is the woman holding?', 'racquet,ball,glove,club', 'racquet');objectEval(image, 'tennis court');vqa(image, 'what type of court is this?', 'tennis court,basketball court,volleyball court,football field', 'tennis court');vqa(image, 'is the woman holding a racquet?', 'yes,no', 'yes');spatialEval(image, 'woman,tennis court,above');spatialEval(image, 'woman,tennis court,above');vqa(image, 'is the woman on top of the tennis court?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_99268": {
+    "text_id": "coco_99268",
+    "image_path": "mindalle/coco/coco_99268.png",
+    "text": "a skateboarder in a blue jacket is doing a trick",
+    "code": "objectEval(image, 'skateboarder');vqa(image, 'what is the person doing?', 'skateboarding,running,jumping,swimming', 'skateboarding');objectEval(image, 'jacket');vqa(image, 'what color is the jacket?', 'blue,red,green,yellow', 'blue');vqa(image, 'is the skateboarder wearing a jacket?', 'yes,no', 'yes');vqa(image, 'is the skateboarder doing a trick?', 'yes,no', 'yes');vqa(image, 'what is the skateboarder doing?', 'a trick,riding normally,falling off,standing still', 'a trick')"
+  },
+  "mindalle_coco_694975": {
+    "text_id": "coco_694975",
+    "image_path": "mindalle/coco/coco_694975.png",
+    "text": "man with a tennis racket waits for the ball",
+    "code": "objectEval(image, 'man');vqa(image, 'who is waiting for the ball?', 'man,woman,boy,girl', 'man');objectEval(image, 'tennis racket');vqa(image, 'what is the man holding?', 'tennis racket,golf club,hockey stick,badminton racket', 'tennis racket');objectEval(image, 'ball');vqa(image, 'what is the man waiting for?', 'ball,frisbee,football,basketball', 'ball');vqa(image, 'is the man waiting for the ball?', 'yes,no', 'yes');vqa(image, 'what is the man doing besides holding the racket?', 'waiting,running,jumping,swinging', 'waiting')"
+  },
+  "mindalle_coco_764251": {
+    "text_id": "coco_764251",
+    "image_path": "mindalle/coco/coco_764251.png",
+    "text": "Young kitten along windowpane watching the rain tap on the glass.",
+    "code": "objectEval(image, 'kitten');vqa(image, 'what animal is in the photo?', 'kitten,puppy,bunny,hamster', 'kitten');objectEval(image, 'windowpane');vqa(image, 'what is the kitten looking through?', 'windowpane,door,curtain,screen', 'windowpane');vqa(image, 'is it raining?', 'yes,no', 'yes');vqa(image, 'what is the material of the windowpane?', 'glass,plastic,wood,metal', 'glass');vqa(image, 'is the kitten young?', 'yes,no', 'yes');vqa(image, 'is the kitten watching the rain?', 'yes,no', 'yes');vqa(image, 'is the rain tapping on the glass?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_247543": {
+    "text_id": "coco_247543",
+    "image_path": "mindalle/coco/coco_247543.png",
+    "text": "Multiple skiers travelling across a vast expanse of snow covered land towards a mountain.",
+    "code": "objectEval(image, 'skier');vqa(image, 'what are the people doing?', 'skiing,snowboarding,ice skating,sledding', 'skiing');objectEval(image, 'snow');vqa(image, 'what is covering the land?', 'snow,grass,sand,water', 'snow');vqa(image, 'where are the skiers?', 'on land,in water,in the air,in a building', 'on land');objectEval(image, 'mountain');vqa(image, 'what is in the distance?', 'mountain,building,forest,river', 'mountain');vqa(image, 'are the skiers travelling?', 'yes,no', 'yes');countEval(objDet(image, 'skier'), '>1');spatialEval(image, 'skier,land,above');vqa(image, 'is this a vast expanse of land?', 'yes,no', 'yes');vqa(image, 'is this a vast expanse of land or a small patch of snow?', 'vast expanse,small patch,medium sized area,large area', 'vast expanse')"
+  },
+  "mindalle_coco_549140": {
+    "text_id": "coco_549140",
+    "image_path": "mindalle/coco/coco_549140.png",
+    "text": "A brown bear walking across a forest surrounded by trees..",
+    "code": "objectEval(image, 'bear');vqa(image, 'what animal is in the picture?', 'bear,deer,fox,wolf', 'bear');objectEval(image, 'forest');vqa(image, 'where is the bear walking?', 'forest,desert,beach,mountain', 'forest');objectEval(image, 'tree');vqa(image, 'what is surrounding the forest?', 'trees,rocks,water,buildings', 'trees');vqa(image, 'what color is the bear?', 'brown,black,white,gray', 'brown');vqa(image, 'is the bear walking?', 'yes,no', 'yes');spatialEval(image, 'bear,forest,surrounded by');vqa(image, 'is the forest surrounded by trees?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_71258": {
+    "text_id": "coco_71258",
+    "image_path": "mindalle/coco/coco_71258.png",
+    "text": "A house where you can see the bedroom and relaxing room.",
+    "code": "objectEval(image, 'house');vqa(image, 'what type of building is this?', 'house,apartment,office building,store', 'house');objectEval(image, 'bedroom');vqa(image, 'what room can you see in the house?', 'bedroom,kitchen,bathroom,living room', 'bedroom');objectEval(image, 'relaxing room');vqa(image, 'what room can you see in the house?', 'relaxing room,living room,office,library', 'relaxing room')"
+  },
+  "mindalle_coco_463732": {
+    "text_id": "coco_463732",
+    "image_path": "mindalle/coco/coco_463732.png",
+    "text": "A young woman is playing a video game on a couch.",
+    "code": "objectEval(image, 'woman');vqa(image, 'who is playing the video game?', 'woman,man,boy,girl', 'woman');objectEval(image, 'video game');vqa(image, 'what is the woman doing?', 'playing a video game,watching TV,reading a book,sleeping', 'playing a video game');objectEval(image, 'couch');vqa(image, 'where is the woman playing the video game?', 'on a couch,on a chair,on a bed,on the floor', 'on a couch');vqa(image, 'is the woman young?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_572796": {
+    "text_id": "coco_572796",
+    "image_path": "mindalle/coco/coco_572796.png",
+    "text": "A young woman with green eyes and piercings all over her face.",
+    "code": "objectEval(image, 'woman');vqa(image, 'who is in the photo?', 'woman,man,boy,girl', 'woman');vqa(image, 'does the woman have green eyes?', 'yes,no', 'yes');vqa(image, 'what color are the woman\\'s eyes?', 'green,blue,brown,hazel', 'green');vqa(image, 'does the woman have piercings on her face?', 'yes,no', 'yes');vqa(image, 'where are the piercings located?', 'face,ears,nose,lips', 'face');vqa(image, 'is the woman young?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_669925": {
+    "text_id": "coco_669925",
+    "image_path": "mindalle/coco/coco_669925.png",
+    "text": "A Christmas tree with lights and teddy bear",
+    "code": "objectEval(image, 'Christmas tree');vqa(image, 'what is in the picture?', 'Christmas tree,regular tree,palm tree,shrub', 'Christmas tree');objectEval(image, 'lights');vqa(image, 'are there lights on the Christmas tree?', 'yes,no', 'yes');vqa(image, 'what is on the Christmas tree?', 'lights,ornaments,garland,tinsel', 'lights');objectEval(image, 'teddy bear');vqa(image, 'is there a teddy bear in the picture?', 'yes,no', 'yes');vqa(image, 'what is in the picture besides the Christmas tree?', 'teddy bear,presents,snowman,angel', 'teddy bear')"
+  },
+  "mindalle_coco_67370": {
+    "text_id": "coco_67370",
+    "image_path": "mindalle/coco/coco_67370.png",
+    "text": "A car and a truck sitting a red light.",
+    "code": "objectEval(image, 'car');vqa(image, 'is there a car in the photo?', 'yes,no', 'yes');objectEval(image, 'truck');vqa(image, 'is there a truck in the photo?', 'yes,no', 'yes');objectEval(image, 'red light');vqa(image, 'is there a red light in the photo?', 'yes,no', 'yes');vqa(image, 'are the car and truck sitting at a red light?', 'yes,no', 'yes');countEval(objDet(image, 'car') + objDet(image, 'truck'), '==2')"
+  },
+  "mindalle_coco_413279": {
+    "text_id": "coco_413279",
+    "image_path": "mindalle/coco/coco_413279.png",
+    "text": "Small white toilet with seashells sitting on top of it. ",
+    "code": "objectEval(image, 'toilet');vqa(image, 'what is in the picture?', 'toilet,sink,shower,bathtub', 'toilet');objectEval(image, 'seashells');vqa(image, 'what is on top of the toilet?', 'seashells,flowers,candles,books', 'seashells');vqa(image, 'is the toilet white?', 'yes,no', 'yes');vqa(image, 'what color is the toilet?', 'white,black,gray,brown', 'white');sizeEval(objDet(image, 'toilet'), 'small');vqa(image, 'is the toilet small?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_666114": {
+    "text_id": "coco_666114",
+    "image_path": "mindalle/coco/coco_666114.png",
+    "text": "A little boy grips a soccer ball in his arms surrounded by other youth soccer players.",
+    "code": "objectEval(image, 'boy');vqa(image, 'who is gripping the soccer ball?', 'boy,girl,man,woman', 'boy');objectEval(image, 'soccer ball');vqa(image, 'what is the boy gripping?', 'soccer ball,football,basketball,baseball', 'soccer ball');objectEval(image, 'youth soccer player');vqa(image, 'are there other youth soccer players in the picture?', 'yes,no', 'yes');vqa(image, 'what are the other people in the picture?', 'youth soccer players,adult soccer players,referees,spectators', 'youth soccer players');countEval(objDet(image, 'youth soccer player'), '>1');vqa(image, 'is the boy little?', 'yes,no', 'yes');vqa(image, 'is the boy gripping the soccer ball?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_321596": {
+    "text_id": "coco_321596",
+    "image_path": "mindalle/coco/coco_321596.png",
+    "text": "A chair in the corner on a boat.",
+    "code": "objectEval(image, 'chair');vqa(image, 'is there a chair in the picture?', 'yes,no', 'yes');spatialEval(image, 'chair,boat,corner');vqa(image, 'is the chair in the corner?', 'yes,no', 'yes');objectEval(image, 'boat');vqa(image, 'what is in the picture?', 'boat,ship,raft,kayak', 'boat')"
+  },
+  "mindalle_coco_602469": {
+    "text_id": "coco_602469",
+    "image_path": "mindalle/coco/coco_602469.png",
+    "text": "A teddy bear store is decorated with signs and bears.",
+    "code": "objectEval(image, 'teddy bear');vqa(image, 'what type of toys are in the store?', 'teddy bears,dolls,action figures,legos', 'teddy bears');objectEval(image, 'store');vqa(image, 'what type of place is this?', 'store,restaurant,park,museum', 'store');objectEval(image, 'sign');vqa(image, 'are there signs in the store?', 'yes,no', 'yes');vqa(image, 'what is in the store besides teddy bears?', 'signs,books,clothes,toys', 'signs');vqa(image, 'is the store decorated?', 'yes,no', 'yes');vqa(image, 'what is the store decorated with?', 'signs,balloons,flowers,lights', 'signs')"
+  },
+  "mindalle_coco_29031": {
+    "text_id": "coco_29031",
+    "image_path": "mindalle/coco/coco_29031.png",
+    "text": "A cat lying a top on the desk on a laptop. ",
+    "code": "objectEval(image, 'cat');vqa(image, 'what animal is on the desk?', 'cat,dog,bird,fish', 'cat');objectEval(image, 'desk');vqa(image, 'what is the cat on?', 'desk,chair,table,bed', 'desk');objectEval(image, 'laptop');vqa(image, 'what is on the desk besides the cat?', 'laptop,book,phone,paper', 'laptop');vqa(image, 'is the cat lying on the desk?', 'yes,no', 'yes');spatialEval(image, 'cat,desk,above');spatialEval(image, 'cat,laptop,above');vqa(image, 'is the cat on top of the laptop?', 'yes,no', 'yes')"
+  },
+  "mindalle_coco_361740": {
+    "text_id": "coco_361740",
+    "image_path": "mindalle/coco/coco_361740.png",
+    "text": "A male skateboarder is trying to pull off a trick on the ramp. ",
+    "code": "objectEval(image, 'skateboarder');vqa(image, 'who is on the skateboard?', 'skateboarder,bicyclist,rollerblader,scooter rider', 'skateboarder');objectEval(image, 'ramp');vqa(image, 'what is the skateboarder on?', 'ramp,stairs,hill,flat ground', 'ramp');vqa(image, 'is the skateboarder trying to pull off a trick?', 'yes,no', 'yes');vqa(image, 'what is the skateboarder doing on the ramp?', 'trying to pull off a trick,just riding,falling off,standing still', 'trying to pull off a trick');vqa(image, 'is the skateboarder male?', 'yes,no', 'yes');vqa(image, 'what is the gender of the skateboarder?', 'male,female,non-binary,unknown', 'male')"
+  }
+}
