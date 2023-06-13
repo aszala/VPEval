@@ -329,7 +329,7 @@ def get_question_and_answers(data):
 
 def openai_completion(prompt):
     resp = openai.ChatCompletion.create(
-            engine='gpt-35-turbo-01',
+            engine='gpt-35-turbo',
             messages=[{"role": "user", "content": prompt}],
             temperature=0
         )
