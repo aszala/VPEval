@@ -15,6 +15,9 @@ on visual programming, as described in the paper:
 <img width="800" src="assets/teaser_video.gif"/>
 <br>
 
+## Change Log
+See our change log [here](CHANGELOG.md).
+
 ## Code Structure
 ```bash
 # Evaluate Source Code

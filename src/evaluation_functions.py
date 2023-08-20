@@ -222,7 +222,7 @@ class EvaluationModules:
 
             if not relation == "skip":
                 objects = self.objDet(image, f"{object_1},{object_2}")
-                correct = self.spatialEvalDino(objects, relation)
+                correct = self.spatialEvalDino([object_1, object_2], objects, relation)
 
                 if correct:
                     self.visual_explainations[objects[-2]]["text_explaination"] = f"(\"{object_1}\", \"{object_2}\") have the relationship \"{relation}\" between them."
@@ -322,7 +322,7 @@ class EvaluationModules:
 
             if not relation == "skip":
                 objects = self.objDet(image, f"{object_1},{object_2}")
-                correct = self.scaleEvalDino(objects, relation)
+                correct = self.scaleEvalDino([object_1, object_2], objects, relation)
                 
                 if correct:
                     self.visual_explainations[objects[-2]]["text_explaination"] = f"(\"{object_1}\", \"{object_2}\") have the relationship \"{relation}\" between them."
@@ -398,17 +398,11 @@ class EvaluationModules:
 
         return correct
 
-    def spatialEvalDino(self, objects, target_relation: str, **kwargs):
+    def spatialEvalDino(self, gt_labels, objects, target_relation: str, **kwargs):
         predicted_labels, predicted_boxes, image_id, _ = objects
         
         diff_threshold = 5
         if (len(predicted_labels) >= 2):
-            temp = list(set(predicted_labels))
-            if len(temp) == 1:
-                temp = [ temp[0], temp[0] ]
-
-            gt_labels = [ temp[1], temp[0] ]
-
             o1sidxs = []
             o2sidxs = []
 
@@ -469,7 +463,7 @@ class EvaluationModules:
             
         return False
 
-    def scaleEvalDino(self, objects, target_size: str, **kwargs):
+    def scaleEvalDino(self, gt_labels, objects, target_size: str, **kwargs):
         predicted_labels, predicted_boxes, image_id, _ = objects
 
         if "small" in target_size:
@@ -481,12 +475,6 @@ class EvaluationModules:
 
         diff_threshold = 0.05
         if (len(predicted_labels) >= 2):
-            temp = list(set(predicted_labels))
-            if len(temp) == 1:
-                temp = [ temp[0], temp[0] ]
-
-            gt_labels = [temp[1], temp[0]]
-
             o1sidxs = []
             o2sidxs = []
 
