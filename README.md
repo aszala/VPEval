@@ -91,9 +91,10 @@ will also be saved in the root path that includes the text explainations along w
 If you find our project useful in your research, please cite the following paper:
 
 ```bibtex
-@article{Cho2023VPT2I,
+@inproceedings{Cho2023VPT2I,
   author    = {Jaemin Cho and Abhay Zala and Mohit Bansal},
   title     = {Visual Programming for Text-to-Image Generation and Evaluation},
+  booktitle = {NeurIPS},
   year      = {2023},
 }
 ```
