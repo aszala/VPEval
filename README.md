@@ -65,6 +65,9 @@ To run skill based evaluation, please run
 bash scripts/evaluate_skill_based.sh
 ```
 
+Note: In the paper, we use the first 1000 IDs located in the `data/skill_based/random_ids_{skill}.json` file, where skill is any of object, count, spatial, etc.
+- This is already implemented in the code
+
 <hr>
 
 <img src="assets/vpeval_open.png" style="max-width:45%;">
