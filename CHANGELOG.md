@@ -1,5 +1,13 @@
 # Changelog
 
+## Nov 29, 2023
+- We've released an end-to-end inference notebook, `inference.ipynb` or<a target="_blank" href="https://colab.research.google.com/github/aszala/VPEval/blob/main/inference.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+- We've released a fine-tuned (on ChatGPT outputs) LLama2 7B model.
+If you do not want to use ChatGPT then you can use this model instead.
+Please refer to this [code file](https://github.com/aszala/VPEval/blob/main/src/open_ended_prompt_generation/local_llm_program_generation/llama2_generation.py). 
+
 ## Aug 20, 2023
 
   - We add an experiment with Vicuna13B+GLIGEN trained only on the "Flickr30K" dataset and compare it to Vicuna13B+GLIGEN trained on the "Flickr30K+COCO+PaintSkills" datasets (i.e. to compare training on only real images vs real+simulated images).

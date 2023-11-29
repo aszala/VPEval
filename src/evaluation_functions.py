@@ -28,7 +28,8 @@ class EvaluationModules:
             "four": 4
         }
 
-        self.model, self.vis_processors, _ = load_model_and_preprocess(name="blip2_t5", model_type="pretrain_flant5xl", is_eval=True, device=args.device)
+        if args.enable_vqa_module:
+            self.model, self.vis_processors, _ = load_model_and_preprocess(name="blip2_t5", model_type="pretrain_flant5xl", is_eval=True, device=args.device)
 
         self.visual_explainations = { }
 
@@ -39,7 +40,7 @@ class EvaluationModules:
         return [x for x, y in EvaluationModules.__dict__.items() if type(y) == FunctionType and not x.startswith('_')]
 
     def get_image_id(self, image):
-        return image.split("/")[-1].replace(".png", "")
+        return image.split("/")[-1].replace(".png", "").replace(".jpg", "")
 
     def vqa(self, image, question, answer_choices, target_answer):
         assert len(answer_choices.split(",")) > 1, answer_choices

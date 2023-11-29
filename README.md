@@ -40,7 +40,7 @@ conda activate vpeval
 pip install -r requirements.txt
 
 # Install 2nd requirements (as they must be installed second)
-pip install -r requirements2.txt
+pip install -r requirements_2.txt
 ```
 Then please follow directions on installing GroundingDINO: https://github.com/IDEA-Research/GroundingDINO
 
@@ -84,10 +84,20 @@ Then run the following to get the scores
 python src/utils/score_open_ended.py
 ```
 
-# Explaination Outputs
+## Explaination Outputs
 When running a script, pass the `--visualization_savepath` argument to choose where to save the explainations.
 The visual explainations (bounding boxes) will be saved in the `../images/` directory and then a JSON file
 will also be saved in the root path that includes the text explainations along with a path to the coorsponding images if it is available.
+
+## Running End-to-End Inference
+Please see `inference.ipynb` or <a target="_blank" href="https://colab.research.google.com/github/aszala/VPEval/blob/main/inference.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+## Generating Programs without ChatGPT API
+We've released a fine-tuned (on ChatGPT outputs) LLama2 7B model.
+If you do not want to use ChatGPT then you can use this model instead.
+Please refer to this [code file](https://github.com/aszala/VPEval/blob/main/src/open_ended_prompt_generation/local_llm_program_generation/llama2_generation.py). 
 
 # Citation
 

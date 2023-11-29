@@ -112,6 +112,7 @@ if __name__ == "__main__":
     parser.add_argument("--skills", type=str, default="object,count,spatial,scale,text")
     parser.add_argument("--device", type=str, default="cuda")
 
+    parser.add_argument("--enable_vqa_module", type=str, action="store_true")
     parser.add_argument("--use_obj_vqa", action="store_true")
 
     parser.add_argument("--seed", type=int, default=0)

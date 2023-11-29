@@ -316,27 +316,27 @@ def parse_resp(resp):
 
     return modules
 
-def get_question_and_answers(data):
+def get_question_and_answers(data, use_azure=False, engine="gpt-3.5-turbo"):
     caption = data['caption'] + ""
 
     this_prompt = prompt + caption + "\"\nEntities"
-    resp = openai_completion(this_prompt)
+    resp = openai_completion(this_prompt, use_azure, engine)
     
     program = parse_resp(resp)
     data["output"] = ';'.join(program)
 
     return data
 
-def openai_completion(prompt, use_azure=False):
+def openai_completion(prompt, use_azure=False, engine="gpt-3.5-turbo"):
     if use_azure:
         resp = openai.ChatCompletion.create(
-            engine='gpt-35-turbo',
+            engine=engine,
             messages=[{"role": "user", "content": prompt}],
             temperature=0
         )
     else:
         resp = openai.ChatCompletion.create(
-            model='gpt-3.5-turbo',
+            model=engine,
             messages=[{"role": "user", "content": prompt}],
             temperature=0
         )

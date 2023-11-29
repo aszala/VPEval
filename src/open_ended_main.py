@@ -94,6 +94,7 @@ if __name__ == "__main__":
     parser.add_argument("--seed", type=int, default=10)
 
     parser.add_argument("--use_obj_vqa", action="store_true")
+    parser.add_argument("--enable_vqa_module", type=str, action="store_true")
     
     ## GroundingDino Args
     parser.add_argument("--grounding_dino_config_path", type=str, default="./src/dino/groundingdino/config/GroundingDINO_SwinT_OGC.py")
