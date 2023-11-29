@@ -11,6 +11,9 @@ on visual programming, as described in the paper:
 [[Project Page](https://vp-t2i.github.io)]
 [[Paper](https://arxiv.org/abs/2305.15328)]
 [[Code for VPGen](https://github.com/j-min/VPGen)]
+<a target="_blank" href="https://colab.research.google.com/github/aszala/VPEval/blob/main/inference.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 <img width="800" src="assets/teaser_video.gif"/>
 <br>
